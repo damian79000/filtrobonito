@@ -1,0 +1,353 @@
+.icon.FontAwesomeMod::before{
+    font-family: FontAwesomeMod;
+}
+.hoverUnderline{
+    position: relative;
+}
+.hoverUnderline::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    display: block;
+    width: 0;
+    height: 1px;
+    transition: 0.3s;
+}
+.hoverUnderline:not(.disabled):hover:after {
+    width: 100%;
+}
+/**/
+.bg-hide-wrap{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 16, 19, .7);
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .3s;
+}
+.counter-wrap[noread="0"]{
+    display: none !important;
+}
+
+
+.bg-hide-wrap.window-show{
+    opacity: 1;
+}
+.bg-hide-wrap .offer-registration-case{
+    background-color: #23283b; /*background-color: var(--po-ui-kit-modal-background-color);*/
+    position: relative;
+    color: #fff;
+    border: 1px solid var(--po-ui-kit-modal-border-color);
+    border-radius: 10px !important;
+    padding: 20px;
+    max-width: 30%;
+}
+.bg-hide-wrap .offer-registration-case .title-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-hide-wrap .offer-registration-case .title-block .icon{
+    font-size: 40px;
+    color: #8ea5c0;
+    margin-right: 10px;
+}
+.bg-hide-wrap .offer-registration-case .title-block .text{
+    font-size: 20px;
+    display: none;
+}
+ 
+.bg-hide-wrap .offer-registration-case .text-block{
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: justify;
+}
+.bg-hide-wrap .offer-registration-case .text-block span.hoverUnderline{
+    color: #8ea5c0;
+    cursor: pointer;
+}
+.bg-hide-wrap .offer-registration-case .text-block span.hoverUnderline::after{
+    background-color: #8ea5c0; 
+}
+.bg-hide-wrap .offer-registration-case .registration-form{
+    
+}
+.bg-hide-wrap .offer-registration-case .registration-form .display-none{
+    display: none;
+}
+.bg-hide-wrap .offer-registration-case .registration-form #client-reg-form {
+    font: 12px Arial, sans-serif;
+    max-width: 390px;
+    width: 100%;
+    margin: 0 auto;
+}
+.bg-hide-wrap .offer-registration-case .registration-form input.client-reg-form {
+    border-radius: 5px;
+    border: 1px solid #d3d5d9;
+    padding: 7px 10px;
+    width: 100%;
+    outline: 0!important;
+    color: #000;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .form-group {
+    margin-bottom: 7px;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .form-logo-wrap {
+    text-align: center;
+    margin: 10px 0px;
+}
+.bg-hide-wrap .offer-registration-case .registration-form .form-logo-wrap img{
+    max-width: 200px;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form button#client-submit {
+    background-color: #234cdd;
+    color: #ffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form button#client-submit:hover {
+    background-color: #3a9afd;
+}
+.bg-hide-wrap .offer-registration-case .registration-form button#client-submit:active{
+    transform: scale(0.98);
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .checkbox-wrap {
+    position: relative;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .checkbox-wrap input.client-reg-form-checkbox {
+    position: absolute;
+    left: 0;
+    width: 13px;
+    margin: 0;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .checkbox-wrap .ruls {
+    color: #404040;
+    padding-left: 0px;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .ruls a {
+    color: #3a9afd;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .form-logo-wrap svg {
+    max-height: 31px;
+    max-width: 90%;
+}
+.bg-hide-wrap .offer-registration-case .registration-form .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .c-red {
+    color: #c00404;
+    font-size: 11px;
+}
+
+.bg-hide-wrap .offer-registration-case .registration-form .dark-form .c-red {
+    color: #e25454;
+}
+
+
+.bg-hide-wrap .offer-registration-case .action-block{
+    
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap{
+    display: flex;
+    align-items: center;
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .checkbox-case{
+    
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .checkbox-case input{
+    display: none;
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .checkbox-case input:checked + label::before{
+    content: "\F046";
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .checkbox-case label{
+    margin-bottom: 0 !important;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .checkbox-case label::before{
+    display: inline-block;
+    width: 20px;
+    content: "\F096";
+    font-size: 15px;
+    cursor: pointer;
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .bottons-case{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .bottons-case .botton{
+    background-color: #172832;
+    border-color: #172832;
+    color: #ffffff;
+    border: 1px solid #025b44;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4285;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+}
+.bg-hide-wrap .offer-registration-case .action-block .button-wrap .bottons-case .botton:active{
+    transform: scale(.95);
+}
+
+ 
+
+/*icons*/
+.icon.FontAwesomeMod.robot::before{
+    content: "\00C6";
+}
+.icon.FontAwesomeMod.button-close::before{
+    content: "\F00D";
+}
+.icon.FontAwesomeMod.por::before{
+    content: "\00C6";
+}
+ 
+header .robot-condition-case{ 
+	position: relative;
+    min-width: 365px;
+	border: solid 1px #293341;
+    padding: 2px 15px; 
+    font-size: 11px;
+	height: auto; 
+    background-color: inherit;
+	margin-top: auto;
+	cursor: default;
+	user-select: none;
+	margin-left: 20px;
+	border-bottom-color: rgba(0, 0, 0, 0);
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+}
+header .robot-condition-case .iteam-condition-case{
+	display: flex;
+}
+header .robot-condition-case .iteam-condition-case .title{
+	width: 120px;
+	color: #8fa5bf;
+}
+header .robot-condition-case .iteam-condition-case .value{
+	margin-left: 7px;
+} 
+header .robot-condition-case .case-title{
+	-webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    font-weight: 300;
+    left: 50%;
+    line-height: 16px;
+    margin-bottom: 4px;
+    padding: 0 4px;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+	background-color: inherit;
+	color: #8fa5bf;
+}
+
+
+
+body #notification-container{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 400px;
+    z-index: 20;
+    font-size: 12px; 
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+body .notification-case{
+    position: relative;
+    min-width: 200px;
+    width: 100%;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ecebec !important;
+    color: #1d2130;
+    padding: 10px;
+    margin: 5px 0px;
+    transition: all .5s !important;
+}
+body .notification-case.robotNotiHide{
+    transform: translateY(-50px);
+    opacity: 0;
+}
+body .notification-case.robotNoticlose{ 
+    opacity: 0; 
+}
+body .notification-case .close-icon{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+body .notification-case .body-notification{
+    
+}
+body .notification-case .body-notification .wrap-msg{
+    display: flex;
+    align-items: center;
+}
+body .notification-case .body-notification .wrap-msg .logo-case{
+    
+}
+body .notification-case .body-notification .wrap-msg .logo-case img{
+    width: 30px;
+}
+body .notification-case .body-notification .wrap-msg .msg-case{
+    margin-left: 10px;
+}
+body .notification-case .body-notification .wrap-msg .msg-case .msg-header{
+    font-weight: 700;
+}
+body .notification-case .body-notification .wrap-msg .msg-case .msg-text{
+    padding: 7px 0px;
+}
+
+body .notification-case .sender{
+ opacity: 0.6;
+} 
+body header{
+    min-height: 70px;
+} 
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title> &hellip;</title>
+    <meta charset="UTF-8"> 
+    <link rel="icon" href="../../img/logo_128.png"> 
+    <script type="text/javascript" src="../../js/libraries/mainLib.js"></script>
+    <script type="text/javascript" src="../../js/libraries/jquery.js"></script>
+    <script type="text/javascript" src="../../js/importLedger.js"></script>
+    <style>
+        body *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        body .ledger-pair-case{
+            max-width: 350px; margin-top: 50px;
+        }
+        body .ledger-pair-case .data-action-case{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        body .ledger-pair-case .data-action-case .action-text.p{
+            padding: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #232c41;
+        }
+        body .ledger-pair-case .data-action-case .action-text{
+            color: #888998;
+        }
+
+        body .ledger-pair-case .img-action-case{
+            display: flex;
+            flex-direction: column;
+            background-color: #f7f8fa;
+            margin-top: 19px;
+        }
+        body .ledger-pair-case .img-action-case .wrap-img{
+            width: 100%;
+            padding: 35px;
+        }
+        body .ledger-pair-case .img-action-case .wrap-img img{
+            width: 100%;
+        }
+        body .ledger-pair-case .img-action-case .wrap-img .action-text{
+            color: #6d778c;
+            line-height: 18px;
+            margin-top: 22px;
+            text-align: center;
+        }
+        body .ledger-pair-case .buttons-action-case{
+            margin-top: 15px;
+            display: flex;
+            padding: 7px;
+            justify-content: center;
+        }
+        body .ledger-pair-case .buttons-action-case .button-wrap{
+            background-color: #232c41;
+            color: #fff;
+            padding: 7px 25px  ;
+            border-radius: 9px;
+            cursor: pointer;
+            transition: all .1s;
+            user-select: none;
+            position: relative;
+        } 
+        body .ledger-pair-case .buttons-action-case .button-wrap:active{
+            transform: scale(.98);
+        }
+        body .ledger-pair-case .buttons-action-case .button-wrap .text-wrap{
+
+        }
+        body .ledger-pair-case .buttons-action-case .button-wrap .loading-wrap{
+            opacity: 0; 
+            position: absolute;
+            top: 0px;
+            left: 0px ;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 7px 0px;
+        }
+        body .ledger-pair-case .buttons-action-case .button-wrap .loading-wrap img{
+            height: 100%;
+        } 
+        body .ledger-pair-case .buttons-action-case .button-wrap.loading .loading-wrap{
+            opacity: 1;
+        }
+        body .ledger-pair-case .buttons-action-case .button-wrap.loading .text-wrap{
+            opacity: 0;
+        }
+
+
+
+
+        body .ledger-pair-case .img-error-data-case{
+
+        }
+        body .ledger-pair-case .img-error-data-case .error-wrap{
+            background-repeat: no-repeat; position: relative;
+            background-size: contain;
+            height: 55px ;
+            margin-top: 15px; border: solid 1px red; border-radius: 10px; transform: scale(0.8);
+        }
+        .ledgerUnlock{
+            background-image: url(../../img/ledgerUnlock.png); 
+        }
+        .ledgerTronIn{
+            background-image: url(../../img/ledgerTronIn.png); 
+        }
+        body .ledger-pair-case .img-error-data-case .error-wrap .error-text{
+            position: absolute;
+            top: 3px;
+            left: 205px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #405162;
+            width: 140px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center; text-align: center;
+        }
+
+ 
+
+         
+
+         
+
+    </style>
+</head>
+<body> 
+</body>

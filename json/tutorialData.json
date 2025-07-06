@@ -1,0 +1,3236 @@
+{
+    "history":[
+        {
+            "requestId": 4001623549056913,
+            "state": "close",
+            "isClosed": true,
+            "comments": [
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.receivedSignal"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.requestOpenOrder"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.successopen"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.successclose"
+                    ],
+                    "parms": {
+                        "profit": -5,
+                        "accountСurrency": "$"
+                    }
+                }
+            ],
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "tsID": "AUDNZD_otc_70505614744633",
+            "openTimestamp": 1719649140,
+            "isDemo": 1,
+            "accountСurrency": "$",
+            "strategy": "indicatorRsi",
+            "altStrategyName": "Индикатор RSI",
+            "profit": -5,
+            "setInterval": {
+                "dealControl": {
+                    "i": 0,
+                    "t": 0,
+                    "interval": 90743,
+                    "pause": false
+                }
+            },
+            "setTimeout": {
+                "waitClose": 90817
+            },
+            "asset": "AUDNZD_otc",
+            "amount": 5,
+            "action": "put",
+            "time": 5,
+            "timeExpected": 1719656345,
+            "id": "c5b230fe-17eb-4fc2-b759-12d31f1d706a",
+            "openTime": "2024-06-29 10:19:00",
+            "closeTime": "2024-06-29 10:19:05",
+            "closeTimestamp": 1719649145,
+            "uid": 38422840,
+            "percentProfit": 92,
+            "percentLoss": 100,
+            "openPrice": 1.10395,
+            "copyTicket": "",
+            "closePrice": 1.10397,
+            "command": 1,
+            "accountBalance": 45987.23,
+            "openMs": 361,
+            "optionType": 100,
+            "isCopySignal": false,
+            "closeMs": 0
+        },
+        {
+            "requestId": 4777185311247804,
+            "state": "close",
+            "isClosed": true,
+            "comments": [
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.receivedSignal"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.requestOpenOrder"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.successopen"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.successclose"
+                    ],
+                    "parms": {
+                        "profit": -5,
+                        "accountСurrency": "$"
+                    }
+                }
+            ],
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "tsID": "AUDCHF_otc_6247485326026896",
+            "openTimestamp": 1719649140,
+            "isDemo": 1,
+            "accountСurrency": "$",
+            "strategy": "indicatorRsi",
+            "altStrategyName": "Индикатор RSI",
+            "profit": -5,
+            "setInterval": {
+                "dealControl": {
+                    "i": 0,
+                    "t": 0,
+                    "interval": 90742,
+                    "pause": false
+                }
+            },
+            "setTimeout": {
+                "waitClose": 90814
+            },
+            "asset": "AUDCHF_otc",
+            "amount": 5,
+            "action": "put",
+            "time": 5,
+            "timeExpected": 1719656345,
+            "id": "54eb3469-01c7-4bae-9030-0a6d62df66bb",
+            "openTime": "2024-06-29 10:19:00",
+            "closeTime": "2024-06-29 10:19:05",
+            "closeTimestamp": 1719649145,
+            "uid": 38422840,
+            "percentProfit": 92,
+            "percentLoss": 100,
+            "openPrice": 0.72815,
+            "copyTicket": "",
+            "closePrice": 0.72843,
+            "command": 1,
+            "accountBalance": 45987.23,
+            "openMs": 361,
+            "optionType": 100,
+            "isCopySignal": false,
+            "closeMs": 0
+        },
+        {
+            "requestId": 7569895514795034,
+            "state": "close",
+            "isClosed": true,
+            "comments": [
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.receivedSignal"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.requestOpenOrder"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649140,
+                    "mark": [
+                        "comments.successopen"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.successclose"
+                    ],
+                    "parms": {
+                        "profit": 4.6,
+                        "accountСurrency": "$"
+                    }
+                }
+            ],
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "tsID": "AUDCAD_otc_6146026026760288",
+            "openTimestamp": 1719649140,
+            "isDemo": 1,
+            "accountСurrency": "$",
+            "strategy": "indicatorRsi",
+            "altStrategyName": "Индикатор RSI",
+            "profit": 4.6,
+            "setInterval": {
+                "dealControl": {
+                    "i": 0,
+                    "t": 0,
+                    "interval": 90741,
+                    "pause": false
+                }
+            },
+            "setTimeout": {
+                "waitClose": 90807
+            },
+            "asset": "AUDCAD_otc",
+            "amount": 5,
+            "action": "call",
+            "time": 5,
+            "timeExpected": 1719656345,
+            "id": "5dbf5206-18d4-4d2a-bffd-3eda0009618c",
+            "openTime": "2024-06-29 10:19:00",
+            "closeTime": "2024-06-29 10:19:05",
+            "closeTimestamp": 1719649145,
+            "uid": 38422840,
+            "percentProfit": 92,
+            "percentLoss": 100,
+            "openPrice": 0.91219,
+            "copyTicket": "",
+            "closePrice": 0.9122,
+            "command": 0,
+            "accountBalance": 45987.23,
+            "openMs": 360,
+            "optionType": 100,
+            "isCopySignal": false,
+            "closeMs": 0
+        },
+        {
+            "requestId": 9084906432401040,
+            "state": "close",
+            "isClosed": true,
+            "comments": [
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.openedMartingaleSettings"
+                    ],
+                    "parms": {
+                        "step": 1
+                    }
+                },
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.requestOpenOrder"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.successopen"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649150,
+                    "mark": [
+                        "comments.successclose"
+                    ],
+                    "parms": {
+                        "profit": -11,
+                        "accountСurrency": "$"
+                    }
+                }
+            ],
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "tsID": "AUDCHF_otc_6247485326026896",
+            "openTimestamp": 1719649145,
+            "isDemo": 1,
+            "accountСurrency": "$",
+            "strategy": "indicatorRsi",
+            "altStrategyName": "Индикатор RSI",
+            "profit": -11,
+            "setInterval": {
+                "dealControl": {
+                    "i": 0,
+                    "t": 0,
+                    "interval": 94546,
+                    "pause": false
+                }
+            },
+            "setTimeout": {
+                "waitClose": 94814
+            },
+            "asset": "AUDCHF_otc",
+            "amount": 11,
+            "action": "put",
+            "time": 5,
+            "martingalData": {
+                "step": 1,
+                "instructions": {
+                    "minProfit": 70,
+                    "actionDecreaseProfit": "newAsset",
+                    "disabledAsset": "newAsset",
+                    "expiration": 5,
+                    "disabledExpiration": "newAsset",
+                    "direction": "previous",
+                    "autoRatio": "on",
+                    "ratio": 2.5
+                },
+                "lastLooseOrder": {
+                    "requestId": 4777185311247804,
+                    "state": "close",
+                    "isClosed": true,
+                    "comments": [
+                        {
+                            "date": 1719649140,
+                            "mark": [
+                                "comments.receivedSignal"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649140,
+                            "mark": [
+                                "comments.requestOpenOrder"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649140,
+                            "mark": [
+                                "comments.successopen"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649145,
+                            "mark": [
+                                "comments.successclose"
+                            ],
+                            "parms": {
+                                "profit": -5,
+                                "accountСurrency": "$"
+                            }
+                        }
+                    ],
+                    "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+                    "tsID": "AUDCHF_otc_6247485326026896",
+                    "openTimestamp": 1719656340,
+                    "isDemo": 1,
+                    "accountСurrency": "$",
+                    "strategy": "indicatorRsi",
+                    "altStrategyName": "Индикатор RSI",
+                    "profit": -5,
+                    "setInterval": {
+                        "dealControl": {
+                            "i": 0,
+                            "t": 0,
+                            "interval": 90742,
+                            "pause": false
+                        }
+                    },
+                    "setTimeout": {
+                        "waitClose": 90814
+                    },
+                    "asset": "AUDCHF_otc",
+                    "amount": 5,
+                    "action": "put",
+                    "time": 5,
+                    "timeExpected": 1719656345,
+                    "id": "54eb3469-01c7-4bae-9030-0a6d62df66bb",
+                    "openTime": "2024-06-29 10:19:00",
+                    "closeTime": "2024-06-29 10:19:05",
+                    "closeTimestamp": 1719656345,
+                    "uid": 38422840,
+                    "percentProfit": 92,
+                    "percentLoss": 100,
+                    "openPrice": 0.72815,
+                    "copyTicket": "",
+                    "closePrice": 0.72843,
+                    "command": 1,
+                    "accountBalance": 45987.23,
+                    "openMs": 361,
+                    "optionType": 100,
+                    "isCopySignal": false,
+                    "closeMs": 0
+                },
+                "allLoose": -5
+            },
+            "lastSeriesState": "atwork",
+            "mstep": 1,
+            "timeExpected": 1719656350,
+            "id": "88a2c911-5aa8-4c82-b535-dfea3e13b57f",
+            "openTime": "2024-06-29 10:19:05",
+            "closeTime": "2024-06-29 10:19:10",
+            "closeTimestamp": 1719649150,
+            "uid": 38422840,
+            "percentProfit": 92,
+            "percentLoss": 100,
+            "openPrice": 0.72843,
+            "copyTicket": "",
+            "closePrice": 0.7287,
+            "command": 1,
+            "accountBalance": 45981.83,
+            "openMs": 214,
+            "optionType": 100,
+            "isCopySignal": false,
+            "closeMs": 0
+        },
+        {
+            "requestId": 11478658042080676,
+            "state": "close",
+            "isClosed": true,
+            "comments": [
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.openedMartingaleSettings"
+                    ],
+                    "parms": {
+                        "step": 1
+                    }
+                },
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.requestOpenOrder"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649145,
+                    "mark": [
+                        "comments.successopen"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649150,
+                    "mark": [
+                        "comments.successclose"
+                    ],
+                    "parms": {
+                        "profit": 11.04,
+                        "accountСurrency": "$"
+                    }
+                }
+            ],
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "tsID": "AUDNZD_otc_70505614744633",
+            "openTimestamp": 1719649145,
+            "isDemo": 1,
+            "accountСurrency": "$",
+            "strategy": "indicatorRsi",
+            "altStrategyName": "Индикатор RSI",
+            "profit": 11.04,
+            "setInterval": {
+                "dealControl": {
+                    "i": 0,
+                    "t": 0,
+                    "interval": 94552,
+                    "pause": false
+                }
+            },
+            "setTimeout": {
+                "waitClose": 94832
+            },
+            "asset": "AUDNZD_otc",
+            "amount": 12,
+            "action": "put",
+            "time": 5,
+            "martingalData": {
+                "step": 1,
+                "instructions": {
+                    "minProfit": 70,
+                    "actionDecreaseProfit": "newAsset",
+                    "disabledAsset": "newAsset",
+                    "expiration": 5,
+                    "disabledExpiration": "newAsset",
+                    "direction": "previous",
+                    "autoRatio": "on",
+                    "ratio": 2.5
+                },
+                "lastLooseOrder": {
+                    "requestId": 4001623549056913,
+                    "state": "close",
+                    "isClosed": true,
+                    "comments": [
+                        {
+                            "date": 1719649140,
+                            "mark": [
+                                "comments.receivedSignal"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649140,
+                            "mark": [
+                                "comments.requestOpenOrder"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649140,
+                            "mark": [
+                                "comments.successopen"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649145,
+                            "mark": [
+                                "comments.successclose"
+                            ],
+                            "parms": {
+                                "profit": -5,
+                                "accountСurrency": "$"
+                            }
+                        }
+                    ],
+                    "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+                    "tsID": "AUDNZD_otc_70505614744633",
+                    "openTimestamp": 1719656340,
+                    "isDemo": 1,
+                    "accountСurrency": "$",
+                    "strategy": "indicatorRsi",
+                    "altStrategyName": "Индикатор RSI",
+                    "profit": -5,
+                    "setInterval": {
+                        "dealControl": {
+                            "i": 0,
+                            "t": 0,
+                            "interval": 90743,
+                            "pause": false
+                        }
+                    },
+                    "setTimeout": {
+                        "waitClose": 90817
+                    },
+                    "asset": "AUDNZD_otc",
+                    "amount": 5,
+                    "action": "put",
+                    "time": 5,
+                    "timeExpected": 1719656345,
+                    "id": "c5b230fe-17eb-4fc2-b759-12d31f1d706a",
+                    "openTime": "2024-06-29 10:19:00",
+                    "closeTime": "2024-06-29 10:19:05",
+                    "closeTimestamp": 1719656345,
+                    "uid": 38422840,
+                    "percentProfit": 92,
+                    "percentLoss": 100,
+                    "openPrice": 1.10395,
+                    "copyTicket": "",
+                    "closePrice": 1.10397,
+                    "command": 1,
+                    "accountBalance": 45987.23,
+                    "openMs": 361,
+                    "optionType": 100,
+                    "isCopySignal": false,
+                    "closeMs": 0
+                },
+                "allLoose": -5
+            },
+            "lastSeriesState": "atwork",
+            "mstep": 1,
+            "timeExpected": 1719656350,
+            "id": "b3d28f84-89c6-43fb-b847-7f56dc402665",
+            "openTime": "2024-06-29 10:19:05",
+            "closeTime": "2024-06-29 10:19:10",
+            "closeTimestamp": 1719649150,
+            "uid": 38422840,
+            "percentProfit": 92,
+            "percentLoss": 100,
+            "openPrice": 1.10397,
+            "copyTicket": "",
+            "closePrice": 1.10363,
+            "command": 1,
+            "accountBalance": 45981.83,
+            "openMs": 214,
+            "optionType": 100,
+            "isCopySignal": false,
+            "closeMs": 0
+        },
+        {
+            "requestId": 13951513550948190,
+            "state": "close",
+            "isClosed": true,
+            "comments": [
+                {
+                    "date": 1719649150,
+                    "mark": [
+                        "comments.openedMartingaleSettings"
+                    ],
+                    "parms": {
+                        "step": 2
+                    }
+                },
+                {
+                    "date": 1719649150,
+                    "mark": [
+                        "comments.requestOpenOrder"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649150,
+                    "mark": [
+                        "comments.successopen"
+                    ],
+                    "parms": {}
+                },
+                {
+                    "date": 1719649154,
+                    "mark": [
+                        "comments.successclose"
+                    ],
+                    "parms": {
+                        "profit": 21.16,
+                        "accountСurrency": "$"
+                    }
+                }
+            ],
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "tsID": "AUDCHF_otc_6247485326026896",
+            "openTimestamp": 1719649149,
+            "isDemo": 1,
+            "accountСurrency": "$",
+            "strategy": "indicatorRsi",
+            "altStrategyName": "Индикатор RSI",
+            "profit": 21.16,
+            "setInterval": {
+                "dealControl": {
+                    "i": 0,
+                    "t": 0,
+                    "interval": 104607,
+                    "pause": false
+                }
+            },
+            "setTimeout": {
+                "waitClose": 100046
+            },
+            "asset": "AUDCHF_otc",
+            "amount": 23,
+            "action": "put",
+            "time": 5,
+            "martingalData": {
+                "step": 2,
+                "instructions": {
+                    "minProfit": 70,
+                    "actionDecreaseProfit": "newAsset",
+                    "disabledAsset": "newAsset",
+                    "expiration": 5,
+                    "disabledExpiration": "newAsset",
+                    "direction": "previous",
+                    "autoRatio": "on",
+                    "ratio": 2.5
+                },
+                "lastLooseOrder": {
+                    "requestId": 9084906432401040,
+                    "state": "close",
+                    "isClosed": true,
+                    "comments": [
+                        {
+                            "date": 1719649145,
+                            "mark": [
+                                "comments.openedMartingaleSettings"
+                            ],
+                            "parms": {
+                                "step": 1
+                            }
+                        },
+                        {
+                            "date": 1719649145,
+                            "mark": [
+                                "comments.requestOpenOrder"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649145,
+                            "mark": [
+                                "comments.successopen"
+                            ],
+                            "parms": {}
+                        },
+                        {
+                            "date": 1719649150,
+                            "mark": [
+                                "comments.successclose"
+                            ],
+                            "parms": {
+                                "profit": -11,
+                                "accountСurrency": "$"
+                            }
+                        }
+                    ],
+                    "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+                    "tsID": "AUDCHF_otc_6247485326026896",
+                    "openTimestamp": 1719656345,
+                    "isDemo": 1,
+                    "accountСurrency": "$",
+                    "strategy": "indicatorRsi",
+                    "altStrategyName": "Индикатор RSI",
+                    "profit": -11,
+                    "setInterval": {
+                        "dealControl": {
+                            "i": 0,
+                            "t": 0,
+                            "interval": 94546,
+                            "pause": false
+                        }
+                    },
+                    "setTimeout": {
+                        "waitClose": 94814
+                    },
+                    "asset": "AUDCHF_otc",
+                    "amount": 11,
+                    "action": "put",
+                    "time": 5,
+                    "martingalData": {
+                        "step": 1,
+                        "instructions": {
+                            "minProfit": 70,
+                            "actionDecreaseProfit": "newAsset",
+                            "disabledAsset": "newAsset",
+                            "expiration": 5,
+                            "disabledExpiration": "newAsset",
+                            "direction": "previous",
+                            "autoRatio": "on",
+                            "ratio": 2.5
+                        },
+                        "lastLooseOrder": {
+                            "requestId": 4777185311247804,
+                            "state": "close",
+                            "isClosed": true,
+                            "comments": [
+                                {
+                                    "date": 1719649140,
+                                    "mark": [
+                                        "comments.receivedSignal"
+                                    ],
+                                    "parms": {}
+                                },
+                                {
+                                    "date": 1719649140,
+                                    "mark": [
+                                        "comments.requestOpenOrder"
+                                    ],
+                                    "parms": {}
+                                },
+                                {
+                                    "date": 1719649140,
+                                    "mark": [
+                                        "comments.successopen"
+                                    ],
+                                    "parms": {}
+                                },
+                                {
+                                    "date": 1719649145,
+                                    "mark": [
+                                        "comments.successclose"
+                                    ],
+                                    "parms": {
+                                        "profit": -5,
+                                        "accountСurrency": "$"
+                                    }
+                                }
+                            ],
+                            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+                            "tsID": "AUDCHF_otc_6247485326026896",
+                            "openTimestamp": 1719656340,
+                            "isDemo": 1,
+                            "accountСurrency": "$",
+                            "strategy": "indicatorRsi",
+                            "altStrategyName": "Индикатор RSI",
+                            "profit": -5,
+                            "setInterval": {
+                                "dealControl": {
+                                    "i": 0,
+                                    "t": 0,
+                                    "interval": 90742,
+                                    "pause": false
+                                }
+                            },
+                            "setTimeout": {
+                                "waitClose": 90814
+                            },
+                            "asset": "AUDCHF_otc",
+                            "amount": 5,
+                            "action": "put",
+                            "time": 5,
+                            "timeExpected": 1719656345,
+                            "id": "54eb3469-01c7-4bae-9030-0a6d62df66bb",
+                            "openTime": "2024-06-29 10:19:00",
+                            "closeTime": "2024-06-29 10:19:05",
+                            "closeTimestamp": 1719656345,
+                            "uid": 38422840,
+                            "percentProfit": 92,
+                            "percentLoss": 100,
+                            "openPrice": 0.72815,
+                            "copyTicket": "",
+                            "closePrice": 0.72843,
+                            "command": 1,
+                            "accountBalance": 45987.23,
+                            "openMs": 361,
+                            "optionType": 100,
+                            "isCopySignal": false,
+                            "closeMs": 0
+                        },
+                        "allLoose": -5
+                    },
+                    "lastSeriesState": "atwork",
+                    "mstep": 1,
+                    "timeExpected": 1719656350,
+                    "id": "88a2c911-5aa8-4c82-b535-dfea3e13b57f",
+                    "openTime": "2024-06-29 10:19:05",
+                    "closeTime": "2024-06-29 10:19:10",
+                    "closeTimestamp": 1719656350,
+                    "uid": 38422840,
+                    "percentProfit": 92,
+                    "percentLoss": 100,
+                    "openPrice": 0.72843,
+                    "copyTicket": "",
+                    "closePrice": 0.7287,
+                    "command": 1,
+                    "accountBalance": 45981.83,
+                    "openMs": 214,
+                    "optionType": 100,
+                    "isCopySignal": false,
+                    "closeMs": 0
+                },
+                "allLoose": -16
+            },
+            "lastSeriesState": "atwork",
+            "mstep": 2,
+            "timeExpected": 1719656355,
+            "id": "035d0452-d042-4d5d-b8f0-6ee6bd66a25d",
+            "openTime": "2024-06-29 10:19:09",
+            "closeTime": "2024-06-29 10:19:14",
+            "closeTimestamp": 1719649154,
+            "uid": 38422840,
+            "percentProfit": 92,
+            "percentLoss": 100,
+            "openPrice": 0.7287,
+            "copyTicket": "",
+            "closePrice": 0.72859,
+            "command": 1,
+            "accountBalance": 45981.87,
+            "openMs": 852,
+            "optionType": 100,
+            "isCopySignal": false,
+            "closeMs": 0
+        }
+    ],
+    "logbook":[
+        {
+            "type": "expert:launch",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649091,
+            "log": {},
+            "anyData": {
+                "assets": [
+                    "AEDCNY_otc",
+                    "AUDCAD",
+                    "AUDCAD_otc",
+                    "AUDCHF",
+                    "AUDCHF_otc",
+                    "AUDJPY",
+                    "AUDJPY_otc",
+                    "AUDNZD_otc",
+                    "AUDUSD",
+                    "AUDUSD_otc",
+                    "BHDCNY_otc",
+                    "CADCHF",
+                    "CADCHF_otc",
+                    "CADJPY",
+                    "CADJPY_otc",
+                    "CHFJPY",
+                    "CHFJPY_otc",
+                    "CHFNOK_otc",
+                    "EURAUD",
+                    "EURCAD",
+                    "EURCHF",
+                    "EURCHF_otc",
+                    "EURGBP",
+                    "EURGBP_otc",
+                    "EURHUF_otc",
+                    "EURJPY",
+                    "EURJPY_otc",
+                    "EURNZD_otc",
+                    "EURRUB_otc",
+                    "EURTRY_otc",
+                    "EURUSD",
+                    "EURUSD_otc",
+                    "GBPAUD",
+                    "GBPAUD_otc",
+                    "GBPCAD",
+                    "GBPCHF",
+                    "GBPJPY",
+                    "GBPJPY_otc",
+                    "GBPUSD",
+                    "GBPUSD_otc",
+                    "IRRUSD_otc",
+                    "JODCNY_otc",
+                    "LBPUSD_otc",
+                    "MADUSD_otc",
+                    "NZDJPY_otc",
+                    "NZDUSD_otc",
+                    "OMRCNY_otc",
+                    "QARCNY_otc",
+                    "SARCNY_otc",
+                    "SYPUSD_otc",
+                    "TNDUSD_otc",
+                    "USDARS_otc",
+                    "USDBDT_otc",
+                    "USDBRL_otc",
+                    "USDCAD",
+                    "USDCAD_otc",
+                    "USDCHF",
+                    "USDCHF_otc",
+                    "USDCLP_otc",
+                    "USDCNH_otc",
+                    "USDCOP_otc",
+                    "USDDZD_otc",
+                    "USDEGP_otc",
+                    "USDIDR_otc",
+                    "USDINR_otc",
+                    "USDJPY",
+                    "USDJPY_otc",
+                    "USDMXN_otc",
+                    "USDMYR_otc",
+                    "USDPHP_otc",
+                    "USDPKR_otc",
+                    "USDRUB_otc",
+                    "USDSGD_otc",
+                    "USDTHB_otc",
+                    "USDVND_otc",
+                    "YERUSD_otc",
+                    "USDCNH"
+                ],
+                "indicatorsSetings": [
+                    {
+                        "id": "rsi",
+                        "indparms": {
+                            "timeInspection": "newBar",
+                            "priceType": "close",
+                            "tf": 60,
+                            "checkBar": 0,
+                            "periodRsi": 14,
+                            "tpl": 70,
+                            "btl": 30
+                        },
+                        "conditions": {
+                            "signalUp": "valRsi<btl",
+                            "signalDown": "valRsi>tpl"
+                        }
+                    }
+                ],
+                "martingaleSetings": [
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    },
+                    {
+                        "minProfit": 70,
+                        "actionDecreaseProfit": "newAsset",
+                        "disabledAsset": "newAsset",
+                        "expiration": 5,
+                        "disabledExpiration": "newAsset",
+                        "direction": "previous",
+                        "autoRatio": "on",
+                        "ratio": 2.5
+                    }
+                ],
+                "regulationsSetings": {
+                    "mode": "trade",
+                    "timeFrom": "00:00-00:00",
+                    "minProfit": 70,
+                    "expiration": 5,
+                    "bet": 5,
+                    "maxBets": 5,
+                    "sl": 0,
+                    "tp": 0
+                }
+            }
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649094,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649094,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "AUDCAD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649098,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "AUDCHF_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649099,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "AUDJPY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649100,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "AUDNZD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649101,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "AUDUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:updateAssets",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649102,
+            "log": {},
+            "anyData": {
+                "updateAssets": {
+                    "AEDCNY_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "AUDCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "AUDCAD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "AUDCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "AUDCHF_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "AUDJPY": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "AUDJPY_otc": {
+                        "available": true,
+                        "profit": 82,
+                        "minExp": 5
+                    },
+                    "AUDNZD_otc": {
+                        "available": true,
+                        "profit": 90,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "AUDUSD": {
+                        "available": false,
+                        "profit": 45,
+                        "minExp": 60
+                    },
+                    "AUDUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "BHDCNY_otc": {
+                        "available": true,
+                        "profit": 90,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "CADCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "CADCHF_otc": {
+                        "available": true,
+                        "profit": 87,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "CADJPY": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "CADJPY_otc": {
+                        "available": true,
+                        "profit": 71,
+                        "minExp": 5
+                    },
+                    "CHFJPY": {
+                        "available": false,
+                        "profit": 49,
+                        "minExp": 60
+                    },
+                    "CHFJPY_otc": {
+                        "available": true,
+                        "profit": 87,
+                        "minExp": 5
+                    },
+                    "CHFNOK_otc": {
+                        "available": true,
+                        "profit": 85,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "EURAUD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURCHF_otc": {
+                        "available": true,
+                        "profit": 40,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "EURGBP": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURGBP_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "EURHUF_otc": {
+                        "available": true,
+                        "profit": 84,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "EURJPY": {
+                        "available": false,
+                        "profit": 58,
+                        "minExp": 60
+                    },
+                    "EURJPY_otc": {
+                        "available": true,
+                        "profit": 69,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "EURNZD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "EURRUB_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "EURTRY_otc": {
+                        "available": true,
+                        "profit": 65,
+                        "minExp": 5
+                    },
+                    "EURUSD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURUSD_otc": {
+                        "available": true,
+                        "profit": 85,
+                        "minExp": 5
+                    },
+                    "GBPAUD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPAUD_otc": {
+                        "available": true,
+                        "profit": 38,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "GBPCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPJPY": {
+                        "available": false,
+                        "profit": 58,
+                        "minExp": 60
+                    },
+                    "GBPJPY_otc": {
+                        "available": true,
+                        "profit": 87,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "GBPUSD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "IRRUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "JODCNY_otc": {
+                        "available": true,
+                        "profit": 73,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "LBPUSD_otc": {
+                        "available": true,
+                        "profit": 45,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "MADUSD_otc": {
+                        "available": true,
+                        "profit": 84,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "NZDJPY_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "NZDUSD_otc": {
+                        "available": true,
+                        "profit": 53,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "OMRCNY_otc": {
+                        "available": true,
+                        "profit": 82,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "QARCNY_otc": {
+                        "available": true,
+                        "profit": 44,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "SARCNY_otc": {
+                        "available": true,
+                        "profit": 62,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "SYPUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "TNDUSD_otc": {
+                        "available": true,
+                        "profit": 84,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDARS_otc": {
+                        "available": true,
+                        "profit": 70,
+                        "minExp": 5
+                    },
+                    "USDBDT_otc": {
+                        "available": true,
+                        "profit": 62,
+                        "minExp": 5
+                    },
+                    "USDBRL_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "USDCAD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "USDCHF_otc": {
+                        "available": true,
+                        "profit": 66,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDCLP_otc": {
+                        "available": true,
+                        "profit": 54,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDCNH_otc": {
+                        "available": true,
+                        "profit": 41,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDCOP_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDDZD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDEGP_otc": {
+                        "available": true,
+                        "profit": 68,
+                        "minExp": 5
+                    },
+                    "USDIDR_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDINR_otc": {
+                        "available": true,
+                        "profit": 65,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDJPY": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "USDJPY_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDMXN_otc": {
+                        "available": true,
+                        "profit": 77,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDMYR_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDPHP_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDPKR_otc": {
+                        "available": true,
+                        "profit": 65,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDRUB_otc": {
+                        "available": true,
+                        "profit": 80,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDSGD_otc": {
+                        "available": true,
+                        "profit": 91,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDTHB_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDVND_otc": {
+                        "available": true,
+                        "profit": 69,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "YERUSD_otc": {
+                        "available": true,
+                        "profit": 81,
+                        "minExp": 5,
+                        "isChange": true
+                    }
+                }
+            }
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649102,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "CADCHF_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649103,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "CADJPY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649104,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "CHFJPY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649105,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURCHF_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649106,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURGBP_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649107,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURJPY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649108,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURNZD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649109,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "GBPAUD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649110,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "GBPJPY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649110,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "GBPUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649111,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "NZDJPY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649112,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "NZDUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:updateAssets",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649113,
+            "log": {},
+            "anyData": {
+                "updateAssets": {
+                    "AEDCNY_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "AUDCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "AUDCAD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "AUDCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "AUDCHF_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "AUDJPY": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "AUDJPY_otc": {
+                        "available": true,
+                        "profit": 82,
+                        "minExp": 5
+                    },
+                    "AUDNZD_otc": {
+                        "available": true,
+                        "profit": 90,
+                        "minExp": 5
+                    },
+                    "AUDUSD": {
+                        "available": false,
+                        "profit": 45,
+                        "minExp": 60
+                    },
+                    "AUDUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "BHDCNY_otc": {
+                        "available": true,
+                        "profit": 90,
+                        "minExp": 5
+                    },
+                    "CADCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "CADCHF_otc": {
+                        "available": true,
+                        "profit": 86,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "CADJPY": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "CADJPY_otc": {
+                        "available": true,
+                        "profit": 71,
+                        "minExp": 5
+                    },
+                    "CHFJPY": {
+                        "available": false,
+                        "profit": 49,
+                        "minExp": 60
+                    },
+                    "CHFJPY_otc": {
+                        "available": true,
+                        "profit": 87,
+                        "minExp": 5
+                    },
+                    "CHFNOK_otc": {
+                        "available": true,
+                        "profit": 85,
+                        "minExp": 5
+                    },
+                    "EURAUD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURCHF_otc": {
+                        "available": true,
+                        "profit": 45,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "EURGBP": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURGBP_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "EURHUF_otc": {
+                        "available": true,
+                        "profit": 89,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "EURJPY": {
+                        "available": false,
+                        "profit": 58,
+                        "minExp": 60
+                    },
+                    "EURJPY_otc": {
+                        "available": true,
+                        "profit": 69,
+                        "minExp": 5
+                    },
+                    "EURNZD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "EURRUB_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "EURTRY_otc": {
+                        "available": true,
+                        "profit": 66,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "EURUSD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "EURUSD_otc": {
+                        "available": true,
+                        "profit": 85,
+                        "minExp": 5
+                    },
+                    "GBPAUD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPAUD_otc": {
+                        "available": true,
+                        "profit": 38,
+                        "minExp": 5
+                    },
+                    "GBPCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPJPY": {
+                        "available": false,
+                        "profit": 58,
+                        "minExp": 60
+                    },
+                    "GBPJPY_otc": {
+                        "available": true,
+                        "profit": 86,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "GBPUSD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "GBPUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "IRRUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "JODCNY_otc": {
+                        "available": true,
+                        "profit": 73,
+                        "minExp": 5
+                    },
+                    "LBPUSD_otc": {
+                        "available": true,
+                        "profit": 45,
+                        "minExp": 5
+                    },
+                    "MADUSD_otc": {
+                        "available": true,
+                        "profit": 84,
+                        "minExp": 5
+                    },
+                    "NZDJPY_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "NZDUSD_otc": {
+                        "available": true,
+                        "profit": 52,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "OMRCNY_otc": {
+                        "available": true,
+                        "profit": 84,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "QARCNY_otc": {
+                        "available": true,
+                        "profit": 44,
+                        "minExp": 5
+                    },
+                    "SARCNY_otc": {
+                        "available": true,
+                        "profit": 64,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "SYPUSD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "TNDUSD_otc": {
+                        "available": true,
+                        "profit": 84,
+                        "minExp": 5
+                    },
+                    "USDARS_otc": {
+                        "available": true,
+                        "profit": 70,
+                        "minExp": 5
+                    },
+                    "USDBDT_otc": {
+                        "available": true,
+                        "profit": 62,
+                        "minExp": 5
+                    },
+                    "USDBRL_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDCAD": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "USDCAD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDCHF": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "USDCHF_otc": {
+                        "available": true,
+                        "profit": 67,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDCLP_otc": {
+                        "available": true,
+                        "profit": 62,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDCNH_otc": {
+                        "available": true,
+                        "profit": 40,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDCOP_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDDZD_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDEGP_otc": {
+                        "available": true,
+                        "profit": 68,
+                        "minExp": 5
+                    },
+                    "USDIDR_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDINR_otc": {
+                        "available": true,
+                        "profit": 65,
+                        "minExp": 5
+                    },
+                    "USDJPY": {
+                        "available": false,
+                        "profit": 50,
+                        "minExp": 60
+                    },
+                    "USDJPY_otc": {
+                        "available": true,
+                        "profit": 89,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDMXN_otc": {
+                        "available": true,
+                        "profit": 77,
+                        "minExp": 5
+                    },
+                    "USDMYR_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDPHP_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDPKR_otc": {
+                        "available": true,
+                        "profit": 72,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDRUB_otc": {
+                        "available": true,
+                        "profit": 80,
+                        "minExp": 5
+                    },
+                    "USDSGD_otc": {
+                        "available": true,
+                        "profit": 90,
+                        "minExp": 5,
+                        "isChange": true
+                    },
+                    "USDTHB_otc": {
+                        "available": true,
+                        "profit": 92,
+                        "minExp": 5
+                    },
+                    "USDVND_otc": {
+                        "available": true,
+                        "profit": 69,
+                        "minExp": 5
+                    },
+                    "YERUSD_otc": {
+                        "available": true,
+                        "profit": 81,
+                        "minExp": 5
+                    }
+                }
+            }
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649113,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDCAD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649114,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDCHF_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649115,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDJPY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649116,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDRUB_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649117,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURRUB_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649118,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDINR_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649119,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "CHFNOK_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649120,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURHUF_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649120,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDCNH_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649121,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "EURTRY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649122,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDBDT_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649123,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDBRL_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649124,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDIDR_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649125,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDARS_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649126,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDDZD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649127,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDMXN_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649128,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDPHP_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649129,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDEGP_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649130,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDCOP_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649130,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDPKR_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649131,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDVND_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649132,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDTHB_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649133,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDMYR_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649134,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDCLP_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649135,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "USDSGD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649136,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "YERUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649137,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "LBPUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649138,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "TNDUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649139,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "MADUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "BHDCNY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.assetSignal",
+                    "logsBook.openTradingSeries"
+                ],
+                "parms": {
+                    "asset": "AUDCAD_otc",
+                    "tsid": "AUDCAD_otc_6146026026760288"
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.assetSignal",
+                    "logsBook.openTradingSeries"
+                ],
+                "parms": {
+                    "asset": "AUDCHF_otc",
+                    "tsid": "AUDCHF_otc_6247485326026896"
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.assetSignal",
+                    "logsBook.openTradingSeries"
+                ],
+                "parms": {
+                    "asset": "AUDNZD_otc",
+                    "tsid": "AUDNZD_otc_70505614744633"
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.openOrder",
+                    "logsBook.command.0",
+                    "logsBook.orderData",
+                    ""
+                ],
+                "parms": {
+                    "tsid": "AUDCAD_otc_6146026026760288",
+                    "id": "3eda0009618c",
+                    "requestId": 7569895514795034,
+                    "exp": 5,
+                    "asset": "AUDCAD_otc",
+                    "amount": 5
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.openOrder",
+                    "logsBook.command.1",
+                    "logsBook.orderData",
+                    ""
+                ],
+                "parms": {
+                    "tsid": "AUDCHF_otc_6247485326026896",
+                    "id": "0a6d62df66bb",
+                    "requestId": 4777185311247804,
+                    "exp": 5,
+                    "asset": "AUDCHF_otc",
+                    "amount": 5
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.openOrder",
+                    "logsBook.command.1",
+                    "logsBook.orderData",
+                    ""
+                ],
+                "parms": {
+                    "tsid": "AUDNZD_otc_70505614744633",
+                    "id": "12d31f1d706a",
+                    "requestId": 4001623549056913,
+                    "exp": 5,
+                    "asset": "AUDNZD_otc",
+                    "amount": 5
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649140,
+            "log": {
+                "mark": [
+                    "logsBook.accautBalance"
+                ],
+                "parms": {
+                    "balance": 45972.23
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649141,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "AEDCNY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649141,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "SARCNY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649142,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "QARCNY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649143,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "OMRCNY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649144,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "JODCNY_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.closeOrder",
+                    "logsBook.command.1",
+                    "logsBook.closeOrderData",
+                    ""
+                ],
+                "parms": {
+                    "tsid": "AUDCHF_otc_6247485326026896",
+                    "profit": -5,
+                    "id": "0a6d62df66bb",
+                    "requestId": 4777185311247804,
+                    "exp": 5,
+                    "asset": "AUDCHF_otc",
+                    "amount": 5
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.closeOrder",
+                    "logsBook.command.0",
+                    "logsBook.closeOrderData",
+                    ""
+                ],
+                "parms": {
+                    "tsid": "AUDCAD_otc_6146026026760288",
+                    "profit": 4.6,
+                    "id": "3eda0009618c",
+                    "requestId": 7569895514795034,
+                    "exp": 5,
+                    "asset": "AUDCAD_otc",
+                    "amount": 5
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.closeOrder",
+                    "logsBook.command.1",
+                    "logsBook.closeOrderData",
+                    ""
+                ],
+                "parms": {
+                    "tsid": "AUDNZD_otc_70505614744633",
+                    "profit": -5,
+                    "id": "12d31f1d706a",
+                    "requestId": 4001623549056913,
+                    "exp": 5,
+                    "asset": "AUDNZD_otc",
+                    "amount": 5
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.accautBalance"
+                ],
+                "parms": {
+                    "balance": 45981.83
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.openOrder",
+                    "logsBook.command.1",
+                    "logsBook.orderData",
+                    "logsBook.openedStepMartingale"
+                ],
+                "parms": {
+                    "tsid": "AUDCHF_otc_6247485326026896",
+                    "id": "dfea3e13b57f",
+                    "requestId": 9084906432401040,
+                    "exp": 5,
+                    "asset": "AUDCHF_otc",
+                    "amount": 11,
+                    "step": 1
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.openOrder",
+                    "logsBook.command.1",
+                    "logsBook.orderData",
+                    "logsBook.openedStepMartingale"
+                ],
+                "parms": {
+                    "tsid": "AUDNZD_otc_70505614744633",
+                    "id": "7f56dc402665",
+                    "requestId": 11478658042080676,
+                    "exp": 5,
+                    "asset": "AUDNZD_otc",
+                    "amount": 12,
+                    "step": 1
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.accautBalance"
+                ],
+                "parms": {
+                    "balance": 45958.83
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649145,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "IRRUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649146,
+            "log": {
+                "mark": [
+                    "logsBook.loadAsset"
+                ],
+                "parms": {
+                    "asset": "SYPUSD_otc",
+                    "period": 60
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649150,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.closeOrder",
+                    "logsBook.command.1",
+                    "logsBook.closeOrderData",
+                    "logsBook.stepMartingale"
+                ],
+                "parms": {
+                    "tsid": "AUDNZD_otc_70505614744633",
+                    "profit": 11.04,
+                    "id": "7f56dc402665",
+                    "requestId": 11478658042080676,
+                    "exp": 5,
+                    "asset": "AUDNZD_otc",
+                    "amount": 12,
+                    "step": 1
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649150,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.closeOrder",
+                    "logsBook.command.1",
+                    "logsBook.closeOrderData",
+                    "logsBook.stepMartingale"
+                ],
+                "parms": {
+                    "tsid": "AUDCHF_otc_6247485326026896",
+                    "profit": -11,
+                    "id": "dfea3e13b57f",
+                    "requestId": 9084906432401040,
+                    "exp": 5,
+                    "asset": "AUDCHF_otc",
+                    "amount": 11,
+                    "step": 1
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649150,
+            "log": {
+                "mark": [
+                    "logsBook.accautBalance"
+                ],
+                "parms": {
+                    "balance": 45981.87
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649150,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.openOrder",
+                    "logsBook.command.1",
+                    "logsBook.orderData",
+                    "logsBook.openedStepMartingale"
+                ],
+                "parms": {
+                    "tsid": "AUDCHF_otc_6247485326026896",
+                    "id": "6ee6bd66a25d",
+                    "requestId": 13951513550948190,
+                    "exp": 5,
+                    "asset": "AUDCHF_otc",
+                    "amount": 23,
+                    "step": 2
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649150,
+            "log": {
+                "mark": [
+                    "logsBook.accautBalance"
+                ],
+                "parms": {
+                    "balance": 45958.87
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649154,
+            "log": {
+                "mark": [
+                    "logsBook.tradeSeries",
+                    "logsBook.closeOrder",
+                    "logsBook.command.1",
+                    "logsBook.closeOrderData",
+                    "logsBook.stepMartingale"
+                ],
+                "parms": {
+                    "tsid": "AUDCHF_otc_6247485326026896",
+                    "profit": 21.16,
+                    "id": "6ee6bd66a25d",
+                    "requestId": 13951513550948190,
+                    "exp": 5,
+                    "asset": "AUDCHF_otc",
+                    "amount": 23,
+                    "step": 2
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:note",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649154,
+            "log": {
+                "mark": [
+                    "logsBook.accautBalance"
+                ],
+                "parms": {
+                    "balance": 46003.03
+                }
+            },
+            "anyData": {}
+        },
+        {
+            "type": "expert:stopped",
+            "session": "ab8241150214e8d403c7bafa8fa2b89c00f76c7caedf84149b2b50400812176a",
+            "expertId": "indicatorRsi",
+            "timestamp": 1719649161,
+            "log": {
+                "mark": [
+                    "logsBook.stoppedExpert"
+                ],
+                "parms": {
+                    "0": "0.00",
+                    "1": "15.80"
+                }
+            },
+            "anyData": {}
+        }
+    ]
+}

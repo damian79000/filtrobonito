@@ -1,0 +1,199 @@
+
+
+html{
+    margin: 0; padding: 0; width: 100%; height: 100%; /*letter-spacing: .07em;*/
+    --default-font-color: #9aa6c5; /*#c1deff;*/
+    --activ-font-color: #fff; 
+    --hover-font-color: #b8c8ec; 
+    --color-strategy-on:#03f204;
+    --color-strategy-off:#d0161c; 
+    --color-up:#39b54a;
+    --color-down:#f3392c;
+}
+@keyframes smoothHeight {
+    0%      {height: 0px;} 
+    100%    {height: 20px;}
+} 
+ 
+/*animation: smoothHeight .5s forwards;*/
+
+
+
+
+.custom-input-select{
+    position: relative;
+    display: flex; align-items: center;
+} 
+.custom-input-select button{
+    border-radius: 100%; width: 15px; height: 15px; padding: 0; border-width: 1px;
+    display: flex; align-items: center; justify-content: center; cursor: pointer; 
+    color: #fff; background-color:#39b54a50; border: none; padding: 0; 
+    padding: 0; opacity: .8 !important; transition: opacity 300ms !important; 
+    border: solid 1px #343e52;
+}
+.custom-input-select button:hover{
+    opacity: 1 !important; 
+}
+.custom-input-select button:active{
+    transform: scale(.9);  box-shadow: none
+}
+.custom-input-select button.active{
+    transform: scale(.9);  box-shadow: none
+}
+.custom-input-select button::before{
+    content: "\F067"; display: flex; align-items: center; justify-content: center; font-size: 8px;
+} 
+.custom-input-select button:first-child{
+    background-color: #f3392c50; color: #fff;
+}
+.custom-input-select button:first-child::before{
+    content: "\F068";
+}
+.custom-input-select input[type="text"]{ 
+    background: none; border: none; outline: none; color: #7e91a7;
+    text-align: center; max-width: 50px;
+} 
+
+/*----------------*/
+
+
+.custom-input-select .select-case{ 
+    display: flex; cursor: pointer;
+} 
+
+
+.custom-input-select .select-case div.value{ 
+    display: flex; border: none; outline: none; background: none; color: #7e91a7;
+    min-width:73px; justify-content: center; padding-right: 5px;
+} 
+
+.custom-input-select .select-case div.icon.copy{
+
+}
+
+
+.custom-input-select .select-case div.icon.copy .isCopied.hide{
+    opacity: 0; transform: translateY(-35px); transition: transform 1s , opacity .3s  !important;
+    z-index: -1;
+}
+.custom-input-select .select-case div.icon.copy .isCopied{
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    background-color: rgb(154 166 197);
+    padding: 5px;
+    border-radius: 7px;
+    color: #fff;
+    opacity: 1;
+    transition: opacity .3s !important;
+    width: 100%;
+    text-align: center;
+    
+}
+.custom-input-select .select-case div.icon.copy .isCopied::before{
+    position: absolute;
+    margin-left: -12px;
+    bottom: -9px;
+    color: rgb(154 166 197);
+    font-size: 19px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.custom-input-select .option-case{ 
+    z-index: -1; opacity: 0 !important; transform: scale(0); max-height: 0px; padding: 2px ;
+    position: absolute; top: 20px; left: -5px; background-color: #262c41; color: #fff; border: solid 1px #343e52;
+    width: calc( 100% + 7px); border-radius: 5px;  transition: none !important; overflow-y: auto;
+}
+.custom-input-select[type="time"] .option-case,.custom-input-select[type="verticalNumber"] .option-case { 
+    background: none; border: none; display: flex; justify-content: center; /* border: solid 1px #fff;*/
+    width: 100px; left:0px; top: -27px; transition: option .3s;
+    
+}  
+.custom-input-select .option-case::-webkit-scrollbar-thumb { 
+    -webkit-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color:#343e52 ; 
+    box-shadow:0px 1px 1px #343e52 inset ; 
+    background-image:url('../img/scrol.png'); 
+    background-position:center; 
+    background-repeat:no-repeat; 
+} 
+.custom-input-select.showselect .option-case{
+    z-index: 2; opacity: 1 !important; transform: none; max-height:110px;  transition: all .3s !important;
+}
+.custom-input-select[type="time"].showselect .option-case{
+    z-index: 2; opacity: 1 !important; transform: none; max-height:110px;  transition: opacity .3s !important;
+}
+.custom-input-select .icon:not(.copy){
+    transition: transform .3s !important; color: #7e91a7; 
+}
+.custom-input-select .icon.copy{
+    transition: transform .3s;
+}
+.custom-input-select .icon.copy:hover{
+   /*transform: scale(1.2);*/ 
+}
+.custom-input-select.showselect .select-case .icon{
+    transform: rotate(180deg);
+}
+.custom-input-select[type="time"] .select-case .value{
+    transition: opacity .3s !important;
+}
+.custom-input-select[type="time"].showselect .select-case .value,.custom-input-select[type="time"].showselect .select-case .icon{
+    opacity: 0; transition: opacity .3s !important;
+}
+.custom-input-select .option-case .option{ 
+    padding: 5px 5px; cursor: pointer; text-align: center;
+} 
+.custom-input-select .option-case .option:hover{ 
+    background-color: rgba(0, 0, 0, .1); transform: scale(1.01);
+}
+.custom-input-select .option-case .option.hover{ 
+    background-color: rgba(0, 0, 0, .1); transform: scale(1.01);
+}
+
+
+
+ 
+.custom-input-select .option-case.time .time-case{
+    display: flex; background-color: #2a3144;  
+}
+
+
+
+
+.custom-input-select .option-case.time .time-case .time-select-case{
+    height: 60px; width: 20px;  position: relative;
+}
+.custom-input-select .option-case.time .time-case .separator{
+    display:flex; align-items: center; 
+}
+.custom-input-select .option-case.time .time-case .time-select-case .button{ 
+    width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+    cursor: pointer; position: absolute; z-index: 2;
+    background-color: #262c41; border: solid 1px #343e52;
+} 
+.custom-input-select .option-case.time .time-case .time-select-case .button.up{
+    top: 0px;
+}
+.custom-input-select .option-case.time .time-case .time-select-case .button.down{
+    bottom: 0px;
+}
+.custom-input-select .option-case.time .time-case .time-select-case .value{ 
+    width: 20px; height: 20px;  display: flex; align-items: center; justify-content: center;
+    position: absolute; transition: top .2s;
+}
+.custom-input-select .option-case.time .time-case .time-select-case .value.top{
+    top: 0px;
+}
+.custom-input-select .option-case.time .time-case .time-select-case .value.center{
+    top: 20px; user-select: none;
+}
+.custom-input-select .option-case.time .time-case .time-select-case .value.bottom{
+    top: 40px;
+}
+  

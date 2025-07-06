@@ -1,0 +1,1378 @@
+{
+  "version":1743498385,
+  "name": "English",
+  "title": {
+    "panel": "PocketOptionRobot"
+  },
+  "mainMenu": {
+    "trade": "Auto</br>Trade",
+    "experts": "Strategies",
+    "myStrategies": "My",
+    "history": "History",
+    "deals": "Deals",
+    "martinSeries": "Series martingale",
+    "shop": "Store",
+    "trc20": "MyTether<br>Wallet",
+    "manual": "Info",
+    "help": "Help",
+    "wallets":"Wallets",
+    "transactionHistory":"History of transactions",
+    "notification":"Notifications",
+    "contacts":"Contacts"
+  },
+  "daterangepicker":{
+    "action":{
+      "cancel":"Cancellation",
+      "apply":"Select"
+    },
+    "ranges":{
+      "today":"Today",
+      "yesterday":"Yesterday",
+      "Last7Days":"Last 7 days",
+      "Last30Days":"Last 30 days",
+      "ThisMonth":"Current month",
+      "LastMonth":"Previous month",
+      "customRangeLabel":"Configurable range"
+    },
+    "monthNames":{ 
+      "Jan":"January",
+      "Feb":"February",
+      "Mar":"March",
+      "Apr":"April",
+      "May":"May",
+      "Jun":"June",
+      "Jul":"July",
+      "Aug":"August",
+      "Sep":"September",
+      "Oct":"October",
+      "Nov":"November",
+      "Dec":"December"
+    },
+    "daysOfWeek":{
+      "Mo":"Mo",
+      "Tu":"Tu",
+      "We":"We",
+      "Th":"Th",
+      "Fr":"Fr",
+      "Sa":"Sa", 
+      "Su":"Su"
+      
+    }
+  },
+  "dealState":{
+    "open":"Open",
+    "close":"Closed",
+    "undefined":"Undefined",
+    "error":"Error",
+    "waitingOpening":"Waiting for opening"
+  },
+  "history":{ 
+    "remoteStrategy":"Strategy deleted",
+    "date":"Date",
+    "state":"State",
+    "strategy":"Strategy",
+    "expiration":"Expiration",
+    "asset":"Assets",
+    "openTime":"Opening time",
+    "amount":"Deal size",
+    "profit":"Profit",
+    "nothingWasFound":"Nothing found or not yet calculated",
+    "countSteps":"Number of steps",
+    "step":"Steps",
+    "id":"id",
+    "time":"Time",
+    "coin":"Coin",
+    "from":"Sender",
+    "to":"Receiver",
+    "amoutn":"Amount", 
+    "counterparty":"Counterpart"
+    
+  },
+  "time":{
+    "ms":"ms.",
+    "sec":"s."
+  },
+  "dataDeal":{ 
+    "comments":"Comments",
+    "details":"Details",
+    "percentProfit":"Profitability:",
+    "profit":"Profit:",
+    "openMs":"Delay in opening:",
+    "closeMs":"Delay in closing:",
+    "openPrice":"Opening price:",
+    "closePrice":"Closing price:",
+    "amount":"Amount:",
+    "dealInfo":"Deal information.",
+    "martinSeriesInfo":"Information about martingale series",
+    "id":"id:",
+    "mid":"id series:",
+    "asset":"Asset:",
+    "uid":"User:",
+    "strategy":"Strategy:",
+    "accauntType":"Account:",
+    "demo":"Training",
+    "real":"Real",
+    "openTimestamp":"Opening time:",
+    "closeTimestamp":"Opening time:",
+    "command":"Direction:",
+    "up":"Up",
+    "down":"Down",
+    "mstep":"Step Martingale"
+  },
+  "comments":{
+    "openOrder":"Deal is open${znaak}",
+    "closeOrder":"Deal is closed${znaak}",
+    "predictWin":"Forecast came true, profit ${profit} ${currency}",
+    "predictLoose":"Forecast failed to materialize${znaak}",
+    "martingaleApplied":"Following will apply ${step}th step martingale.",
+    "appliedMartingale":"Applying ${step}th step martingale.",
+    "processingTime":"Time of request processing ${ms} ms.",
+    "receivedSignal":"Received a signal on strategy.",
+    "openedMartingaleSettings":"Open by setting martingale step №${step}",
+    "requestOpenOrder":"Request to open a deal was sent",
+    "successopen":"Deal is open",
+    "successclose":"Deal is closed. Result ${profit} ${accountСurrency}",
+    "failopenOrder":"Opening error. ${reason}",
+    "failCloseOrder":"Closing error. ${reason}", 
+    "strategyStopped":"Escort terminated. Strategy halted.",
+    "noInformationOpenOrder":"After ${s} s. Opening information not received.",
+    "noInformationCloseOrder":"After ${s} s. Closing information not received."
+  },
+  "notification":{
+    "noNotifications":"List of notifications is empty",
+    "title":{
+      "clearHistory":"Deleting history.",
+      "deleteNotification":"Deleting notification",
+      "deleteNotifications":"Deleting notifications",
+      "newNotification":"New notification",
+      "updateApp":"An update is required."
+    },
+    "topic":{
+      "clearHistory":"Deleted trade history<br> from ${from} to ${to}",
+      "deleteNotification":"Delete notification \"${title}\" ?",
+      "deleteNotifications":"Delete selected notifications?",
+      "newNotification":"Read the notification in your robot panel.",
+      "updateApp":"Dear user! A new version of PocketOptionRobot is available! If you have not automatically updated the extension to version ${version}, then go to the <a href=\"#\" class=\"openTab\" data=\"chrome://extensions/\">extensions control panel</a>. Next, turn on Developer mode (the button in the upper right corner) and click UPDATE. <br>You can also delete and re-download the extension."
+    },
+    "list":{
+      "001":{
+        "title":"Global Upgrade PocketOptionRobot",
+        "description":"We are pleased to announce the long-awaited robot update!",
+        "text":"We are pleased to announce the long-awaited robot update!<br> You're in for : <ul class=\"like\"><li>Extended extension functionality</li><li>New indicators</li><li>Flexible strategy settings</li><li>Detailed instructions for users</li><li>Built-in service for managing Tether (USDT) coin on the TRON network (TRC-20)</li></ul>"
+      },
+      "002":{
+        "title":"Account not licensed ${uid}",
+        "description":"Your account ${uid} registered off the project link",
+        "text":"<div class=\"notif-registration\"><div class=\"text-block\"> <center>Your account ${uid} registered off the project link.<br> </center> To get an unlimited license to use the robot, register an account on the Pocket Option platform by <span class=\"aff-linc hoverUnderline\">reference</span> of our project, or using the form below. </div><div class=\"registration-form\"> <div class=\"page-register parent dark-form\" style=\"\"> <div class=\"login-content block\"> <div class=\"t-a-center form-logo-wrap\"> <img class=\"\" src=\"${pocketOptionLogo}\" \"=\"\"> </div> <div id=\"client-reg-form\" class=\"m-10\"> <div class=\"form-group\"> <input class=\"client-reg-form\" name=\"email\" autocomplete=\"off\"   id=\"client-email\" value=\"\" placeholder=\"Email\"> <label id=\"client-email-error\" class=\"c-red display-none f-s-9\"></label> </div> <div class=\"form-group password-container\"> <input class=\"client-reg-form\" type=\"password\" autocomplete=\"off\"   name=\"password\" value=\"\" id=\"client-password\" placeholder=\"Password\"> <label id=\"client-password-error\" class=\"c-red display-none f-s-9 \"></label> </div> <div class=\"form-group rules\"> <label id=\"client-agreement-error\" class=\"c-red m-t-n10 display-none f-s-9 \"></label> <div class=\"checkbox\"> <label class=\"checkbox-wrap\"> <input class=\"client-reg-form-checkbox\" type=\"checkbox\" name=\"rules\" id=\"client-agreement\" value=\"1\"> <p class=\"ruls f-s-9\" style=\"color: white\"> I read and agreed to the agreement: <a href=\"${redirectionPlatformDomain}/pdf/offer_en.pdf\" target=\"_blank\" action=\"openOffer\">Public Offer Agreement</a> </p> </label> </div> </div> <div class=\"form-group\"> <button id=\"client-submit\" class=\"waves btn btn-green-light btn-block p-5 f-s-13 \"> Registration </button> </div> </div> </div> </div> </div></div>"
+      },
+      "003":{
+        "title":"Updating the PocketOptionRobot. Version 7.0.7",
+        "description":"In PocketOptionRobot, an asset exclusion feature has been added at a new signal.",
+        "text":"Dear traders! The extension has been updated to version 7.0.7. We have added a setting for excluding the asset of the last martingale step when using a new strategy signal. <br>Make sure that you have the current version of the extension installed, then reconfigure the martingale steps in your strategies if this setting is relevant to you. <br><br>If you have not automatically updated the extension to version 7.0.7, then go to the <a href=\"#\" class=\"openTab\" data=\"chrome://extensions/\">extensions control panel</a>. Next, turn on Developer mode (the button in the upper right corner) and click UPDATE. <br>You can also delete and re-download the extension. <br> Successful trading!"
+      },
+      "004":{
+        "title":"Updating the PocketOptionRobot. Version 7.0.9",
+        "description":"The capabilities of the Levels indicator have been expanded.",
+        "text":"Dear traders! We have updated the PocketOptionRobot extension to version 7.0.9. We have expanded the functionality of the \"Levels\" indicator by adding the \"The initial bar for determining the level\" parameter to it<br><br>Make sure that you have the current version of the extension installed, then reconfigure the martingale steps in your strategies if this setting is relevant to you. <br><br>If you have not automatically updated the extension to version 7.0.9, then go to the <a href=\"#\" class=\"openTab\" data=\"chrome://extensions/\">extensions control panel</a>. Next, turn on Developer mode (the button in the upper right corner) and click UPDATE. <br>You can also delete and re-download the extension. <br> Successful trading!"
+      },
+      "005":{
+        "title":"Updating the PocketOptionRobot. Version 7.1.1",
+        "description":"New features extension of version 7.1.1",
+        "text":"Dear user! We have updated the PocketOptionRobot extension to version 7.1.1<br> <ul class=\"like\"> <li>Added conditions for opening deals for the levels indicator</li> <li>Added export/import of strategies</li> <li>The ability to add a user comment to the indicator</li> <li>The function of displaying the trading result of the strategy in the general panel</li> <li>Added Persian language</li> </ul> <br>If your extension has not been automatically updated to version 7.1.1, then go to <a href=\"#\" class=\"openTab\" data=\"chrome://extensions/\">extensions control panel</a>. Next, turn on Developer mode (the button in the upper right corner) and click UPDATE. <br>You can also delete and re-download the extension. <br> Successful trading!"
+      },
+      "006":{
+        "title":"Launching the Meta Trader Signal Service",
+        "description":"We are launching a signal translation service from Meta Trader to Pocket Option via PocketOptionRobot",
+        "text":"Tomorrow we will launch a service for broadcasting signals from Meta Trader 5 to Pocket Option.<br> 🔥 If you use it, then join <a href=\"#\" class=\"openTab\" data=\"https://t.me/autopocketoption \">chat</a>. <br>We are conducting all discussions there. Have a good trade!📈🎯"
+      },
+      "007":{
+        "title":"PocketOptionRobot Update. Version 7.1.3",
+        "description":"Adding MACD indicators to PocketOptionRobot",
+        "text":"Dear users! We have updated the extension to version 7.1.3. Two indicators based on MACD have been added: MACD lines and MACD histogram. We have also placed 2 corresponding strategy templates in the market.<br>If your extension has not been automatically updated to version 7.1.3, then go to the <a href=\"#\" class=\"openTab\" data=\"chrome://extensions/\">extension control panel</a>. Then enable developer mode (button in the upper right corner) and click UPDATE. <br>You can also delete and re-download the extension. <br>Happy trading!"
+      },
+      "008":{
+        "title":"Settings for the PocketOptionRobot Strategy",
+        "description":"User strategies",
+        "text":"🔥Dear users! We have created a separate strategy group with settings for PocketOptionRobot:<a href=\"#\" class=\"openTab\" data=\"https://t.me/pocketoption_settings\">@pocketoption_settings</a><br><br>💾 To download the strategy settings, right-click on your strategy and then select the \"IMPORT\" option and specify the path to the settings file.json"
+      },
+      "009":{
+        "title":"Updating the PocketOptionRobot. Version 7.1.6",
+        "description":"Adding the Parabolic SAR indicator and the basic strategy template.",
+        "text":"Dear users!<br> We have updated the extension to version 7.1.6. The new version adds the Parabolic SAR indicator and the basic strategy template. <br>📊📉 Have a good trading day! <br><br>If your extension has not been automatically updated to version 7.1.6, then go to the <a href=\"#\" class=\"openTab\" data=\"chrome://extensions/\">extensions control panel</a>. Next, turn on developer mode (the button in the upper-right corner) and click UPDATE. <br>You can also delete and re-download the extension."
+      },
+      "010":{
+        "title":"Updating the PocketOptionRobot. Version 7.1.7",
+        "description":"Adding the \"Candle Model\" indicator and a new marketing strategy",
+        "text":"🔥 Dear users! We have updated the PocketOptionRobot extension to version 7.1.7. Now, when creating your strategy, you can add the \"Candle Patterns\" indicator, and the \"Absorption\" strategy template has also been added to the market<br><br>If your extension has not been automatically updated to version 7.1.7, then go to the <a href=\"#\" class=\"openTab\" data=\"chrome://extensions/\">extensions control panel</a>. Next, turn on developer mode (the button in the upper-right corner) and click UPDATE. <br>You can also delete and re-download the extension."
+      }
+    }
+  },
+  "filter":{  
+    "deleteHistory":"Delete",
+    "apply":"Apply", 
+    "date":"Date:",
+    "accountType":"Account type:",
+    "group":"Grouping:",
+    "real":"Real",
+    "demo":"Training", 
+    "strategyName":"Strategy:",
+    "deals":"Deals",
+    "martinSeries":"Series martingale",
+    "transferType":"Type of operation:",
+    "coin":"Coin:",
+    "all":"All",
+    "in":"Inbound",
+    "out":"Outbound", 
+    "limit":"Entries:",
+    "10":"10/Page.",
+    "20":"20/Page.",
+    "50":"50/Page.",
+    "lastoperation":"Recent operations:",
+    "description":"${transferType}operations from ${dateFrom} to ${dateTo} per coin ${coin}"  
+  },
+  "description": {
+    "deleteHistory": "Clear deal history",
+    "updateHistory": "Update deal history",
+    "inWalletPassword":"Enter your wallet password",
+    "accautType":{
+      "0":"Real account.",
+      "1":"Training account."
+    },
+    "descAffiliate":"The developer is a member of the Pocket Option platform affiliate program. <br>Free use of PocketOptionRobot is possible when registering on the Pocket Option platform using the developer's affiliate link"
+  },
+  "availableLanguages": {
+    "ru": "Русский",
+    "gb": "English",
+    "ir": "فارسی"
+  },
+  "action": { 
+    "on": "On",
+    "off": "Off",
+    "find": "Search",
+    "nofind": "Not found",
+    "selectall": "Select All",
+    "removeall": "Remove all",
+    "add":"Add",
+    "unwrap":"Unfold",
+    "copy":"Copy",
+    "isCopied":"Copied to buffer",
+    "addressIsCopied":"Address is copied",
+    "isCopiedLow":"Copied",
+    "close":"Close",
+    "cancel":"Cancellation",
+    "back":"Back",
+    "next":"Next",
+    "confirmation":"Confirmation",
+    "warning":"Warning",
+    "apply":"Confirm",
+    "get":"Receive",
+    "send":"Send",
+    "exchange":"Exchange",
+    "max":"Max.",
+    "confirm":"Confirm",
+    "update":"Update",
+    "reset":"Reset",
+    "edit":"Modify",
+    "delete":"Delete",
+    "openInLogsBook":"Open in the journal",
+    "openMartinSeries":"Open in a series of martingale",
+    "findAccaunt":"Account Search",
+    "platformOpen":"Open the platform",
+    "readIt":"Read",
+    "download":"Download"
+  },
+  "errors":{ 
+    "somethingWrong":"Something went wrong",
+    "error":"Error",
+    "strategyIsOnList":"The strategy with this identifier is already in your list under the name of \"${sname}\".",
+    "strategyNameUse":"A strategy named \"${sname}\" already exists. Specify another name.",
+    "invalidPassword":"You have entered an incorrect password, please be careful. <br> Attempts left: ${try} pcs.",
+    "invalidPasswordShort":"Incorrect password",
+    "limitReached":"Password attempt limit has been exhausted.<br> For security reasons, all wallet data has been deleted.",
+    "notEnoughCoins":"Not enough coins ${coinId} to exchange",
+    "noServerConnect":"No connection with the server. Check your connection or try again later",
+    "noServerConnectShort":"No connection with the server.",
+    "noServerConnectMyTetherShort":"No connection with the server MyTether.",
+    "strategyImportError":"Strategy import error" ,
+    "invalidFileFormat":"Invalid file format",
+    "strategyPropertiesNotFound":"Suitable strategy properties were not found"
+  },
+  "completed":{ 
+    "completed":"Successfully",
+    "addStrategy":"Strategy \"${sname}\" has been successfully added to your list.",
+    "completedNewPass":"Wallet password successfully changed!",
+    "isAddAddress":"Address added",
+    "isAddAddressLong":"Address <b>${address}</b> has been successfully added to your wallet.",
+    "isDeleteAddress":"Address deleted",
+    "isDeleteAddressLong":"Address <b>${address}</b>  has been removed from your wallet.",
+    "importToStrategy":"Settings have been imported into the strategy <b>\"${strategyName}\"</b><br>${elList}",
+    "importCompleted":"Successful import",
+    "exportedCompleted":"Successful export",
+    "exportedStrategyCompleted":"The strategy <b>\"${strategyName}\"</b> is saved to the downloads folder."
+  },
+  "warnings":{ 
+    "assetNotSelected":"No assets have been selected",
+    "indicatorsNotSelected":"No indicator has been selected",
+    "cgangeBasicIndicatorsSelected":"Basic settings of indicators have been changed",
+    "notEnoughScreenWidth":"Not enough screen width to display the content.<br>To zoom out, hold CTRL and scroll down with the mouse wheel."
+  },
+  "prompt":{ 
+    "button":{
+      "yes":"Yes",
+      "no":"No",
+      "cancel":"Cancellation",
+      "ok":"Ok",
+      "sign":"Sign"
+    },
+    "title":{
+      "confirm":"Confirmation"
+    },
+    "topic":{ 
+      "deleteStrategy":"Do you really want to delete the strategy </br>\"${strategyId}\" ?",
+      "changePassword":"Make sure you remember or write down the new password. It will be impossible to restore it. Do you really want to change your password?",
+      "confirmSaveStrategy":"Do you really want to keep the changes in strategy?",
+      "deleteIndicator":"Do you really want to delete the indicator ${name} ?",
+      "aplyDeleteHistody":"Do you really want to clear the history <br> from ${from} to ${to}",
+      "tryingExportSettings":"You import the settings into the basic strategy. Do you want to save the changes in the strategy?"
+    }
+    
+  },
+  "indicators": { 
+    "any": {
+      "main": "Basic",
+      "emptyIndicators": "You have not yet selected indicators for your strategy! You can add any indicator from the offered list."
+    },
+    "names": {
+      "rsi": "Indicator RSI",
+      "bb": "Bollinger Lines",
+      "candle": "Candles",
+      "kchannel": "Keltner Channel",
+      "level": "Levels",
+      "api":"External signal",
+      "stochastic":"Stochastic",
+      "twoMa":"Moving averages",
+      "cci":"CCI",
+      "macdLine":"MACD Lines",
+      "macdHistogram":"MACD Histogram",
+      "parabolicSar":"Parabolic SAR",
+      "canmodel":"Candle models"
+    },
+    "settings": {
+      "timeInspection": "Verify conditions",
+      "priceType": "Type of indicator calculation price",
+      "priceTypeAsset": "Analyzed bar price",
+      "tf": "Timeframe",
+      "checkBar": "At which bar to check the value",
+      "periodRsi": "Period RSI",
+      "tpl": "Overbought zone",
+      "btl": "Oversold zone",
+      "signalUp": "↑ Buy signal",
+      "signalDown": "↓ Sell signal",
+      "bbPeriod": "Period BB",
+      "inpDeviation": "Deviation %",
+      "typeCandle": "Candle combination",
+      "bar": "First candle to be tested",
+      "numСandles": "Number of candles to be tested",
+      "minSizeBar": "Min. size of the checked candle(pips)",
+      "maxSizeBar": "Max. size of the checked candle(pips)",
+      "periodEma": "Period EMA",
+      "periodAtr": "Period ATR",
+      "multiplier": "Multiplier",
+      "priceTypeMaxLevel": "Price analysis for resistance level",
+      "priceTypeMinLevel": "Price analysis for support level",
+      "periodLevel": "Period (number of bars to determine the level)",
+      "server":"Network bridge",
+      "indId":"Identifier",
+      "periodK":"%K – Stochastic fast line",
+      "periodD":"%D – Stochastic slow line",
+      "slowdown":"Slowdown",
+      "ma":"MA",
+      "oneMaMetod":"Average averaging method №1",
+      "oneMaPeriod":"Period of average №1",
+      "oneMaPriceType":"Type of average calculation price №1",
+      "toMaMetod":"Average averaging method №2",
+      "toMaPeriod":"Period of average №2",
+      "toMaPriceType":"Type of average calculation price №2",
+      "periodCci":"Period CCI",
+      "initCalcBar":"The initial bar for determining the level",
+      "description":"Description",
+      "periodEmasShort":"Fast period",
+      "periodEmasLong":"Slow period",
+      "periodSignalLine":"Signal period",
+      "boost":"Acceleration",
+      "maxBoost":"Maximum acceleration",
+      "countSarBars":"The number of bars in a row with the selected Parabolic SAR location"
+    },
+    "settingsValues": {
+      "5": "5S",
+      "10": "10S",
+      "15": "15S",
+      "30": "30S",
+      "60": "1M",
+      "120": "2M",
+      "180": "3M",
+      "300": "5M",
+      "600": "10M",
+      "900": "15M",
+      "1800": "30M",
+      "3600": "1H",
+      "14400": "4H",
+      "86400": "1D",
+      "newBar": "New bar",
+      "currentBar": "New tick",
+      "open": "Opening",
+      "close": "Closing",
+      "high": "Maximum",
+      "low": "Minimum",
+      "localhost":"Local server",
+      "robotServer":"Robot server",
+      "sma":"SMA",
+      "wma":"WMA",
+      "ema":"EMA",
+      "smma":"SMMA",
+      "valRsi>tpl": {
+        "short": "B",
+        "long": "B-Indicator line is in the overbought zone"
+      },
+      "valRsi<btl": {
+        "short": "A",
+        "long": "A-Indicator line is in the oversold zone"
+      },
+      "valRsi<tpl && valRsi>btl": {
+        "short": "C",
+        "long": "C-Indicator line is in a moderate zone"
+      },
+      "false": {
+        "short": "D",
+        "long": "D-Do not open the deal"
+      },
+      "checkPrice<downLineBb": {
+        "short": "A",
+        "long": "A-Price is below the lower line of the indicator"
+      },
+      "checkPrice>upLineBb": {
+        "short": "B",
+        "long": "B-Price is above the upper line of the indicator"
+      },
+      "checkPrice>downLineBb && checkPrice<upLineBb": {
+        "short": "C",
+        "long": "C-Price is between the upper and lower line"
+      },
+      "repeat": "Repeats",
+      "alternate": "Alternating",
+      "lastdir=='up'": {
+        "short": "A",
+        "long": "A-First candle being tested closed upwards ↑"
+      },
+      "lastdir=='down'": {
+        "short": "B",
+        "long": "B-First candle being tested closed downward ↓"
+      },
+      "candleFalse": {
+        "short": "C",
+        "long": "C-Do not open the deal"
+      },
+      "check_price<down_line": {
+        "short": "A",
+        "long": "A-Price is below the lower line of the indicator"
+      },
+      "check_price>up_line": {
+        "short": "B",
+        "long": "B-Price is above the upper line of the indicator"
+      },
+      "check_price>down_line && check_price<up_line": {
+        "short": "C",
+        "long": "C-Price is between the upper and lower line"
+      },
+      "prise>max_level": {
+        "short": "A",
+        "long": "A-Price is above resistance"
+      },
+      "prise<max_level": {
+        "short": "B",
+        "long": "B-Price is below resistance"
+      },
+      "prise<min_level": {
+        "short": "C",
+        "long": "C-Price is below support"
+      },
+      "prise>min_level": {
+        "short": "D",
+        "long": "D-Price is above the support level"
+      },
+      "ticks[1]<max_level && ticks[0]>max_level": {
+        "short": "E",
+        "long": "<hr class=\"basic line\"/>E-The intersection of the resistance level from the bottom up. *Allowed only for bar 0 (current)" 
+      },
+      "ticks[1]>max_level && ticks[0]<max_level": {
+        "short": "F",
+        "long": "F-The intersection of the resistance level from top to bottom. *Allowed only for bar 0 (current)"
+      },
+      "ticks[1]<min_level && ticks[0]>min_level": {
+        "short": "G",
+        "long": "G-The intersection of the support level from the bottom up. *Allowed only for bar 0 (current)"
+      },
+      "ticks[1]>min_level && ticks[0]<min_level": {
+        "short": "H",
+        "long": "H-The intersection of the support level from top to bottom. *Allowed only for bar 0 (current)"
+      },
+      "levelFalse": {
+        "short": "I",
+        "long": "<hr class=\"basic\"/>I-Do not open a deal"
+      },
+      "_d>_t && _k>_t && _k>_d":{
+        "short": "A",
+        "long": "A-Both stochastic lines K, D are in the overbought zone; the value of K is higher than the value of D"
+      },
+      "_d>_t && _k>_t && _k<_d":{
+        "short": "B",
+        "long": "B-Both stochastic lines K, D are in the overbought zone; the value of K is lower than the value of D"
+      },
+      "_d > _b && _d < _t && _k > _b && _k < _t && _k > _d":{
+        "short": "C",
+        "long": "C-Both stochastic lines K, D are in the moderate zone; the value of K is higher than the value of D"
+      },
+      "_d > _b && _d < _t && _k > _b && _k < _t && _k < _d":{
+        "short": "D",
+        "long": "D-Both stochastic lines K, D are in the moderate zone; the value of K is below the value of D"
+      },
+      "_d<_b && _k<_b && _k>_d":{
+        "short": "E",
+        "long": "E-Both stochastic lines K, D are in the oversold zone; the value of K is higher than the value of D"
+      },
+      "_d<_b && _k<_b && _k<_d":{
+        "short": "F",
+        "long": "F-Both stochastic lines K, D are in the oversold zone; the value of K is below the value of D"
+      },
+      "_k>_t":{
+        "short": "G",
+        "long": "G-Fast stochastic K line is in the overbought zone"
+      },
+      "_k<_t && _k>_b":{
+        "short": "H",
+        "long": "H-Fast stochastic K line is in the moderate zone"
+      },
+      "_k<_b":{
+        "short": "I",
+        "long": "I-Fast stochastic K line is in the oversold zone"
+      },
+      "_d>_t":{
+        "short": "J",
+        "long": "J-Slow stochastic D line is in the overbought zone"
+      },
+      "_d<_t && _d>_b":{
+        "short": "K",
+        "long": "K-Slow stochastic D line is in the moderate zone"
+      },
+      "_d<_b":{
+        "short": "L",
+        "long": "L-Slow stochastic D line is in the oversold zone"
+      },
+      "stohFalse":{
+        "short": "M",
+        "long": "M-Do not open the deal"
+      },
+      "onema>toma":{
+        "short": "A",
+        "long": "A-Value of average №1 is higher than the value of average №2"
+      },
+      "onema<toma":{
+        "short": "B",
+        "long": "B-Value of average №1  is lower than the value of average №2"
+      },
+      "twoMaFalse":{
+        "short": "C",
+        "long": "C-Do not open the deal"
+      },
+      "valCci>tpl": {
+        "short": "B",
+        "long": "B-Indicator line is in the overbought zone"
+      },
+      "valCci<btl": {
+        "short": "A",
+        "long": "A-Indicator line is in the oversold zone"
+      },
+      "valCci<tpl && valCci>btl": {
+        "short": "C",
+        "long": "C-Indicator line is in a moderate zone"
+      },
+      "valueMacdLine[0]>valueSignalLine[0]":{
+        "short": "A",
+        "long": "A-MACD value is higher than Signal value"
+      },
+      "valueMacdLine[0]>valueSignalLine[0]&&valueMacdLine[0]>0&&valueSignalLine[0]>0":{
+        "short": "B",
+        "long": "B-MACD value is above Signal value, both lines are above zero"
+      },
+      "valueMacdLine[0]>valueSignalLine[0]&&valueMacdLine[0]<0&&valueSignalLine[0]<0":{
+        "short": "C",
+        "long": "C-MACD value is above Signal value, both lines are below zero"
+      },
+      "valueMacdLine[0]<valueSignalLine[0]":{
+        "short": "D",
+        "long": "<hr class=\"basic\"/>D-MACD value is below Signal value"
+      },
+      "valueMacdLine[0]<valueSignalLine[0]&&valueMacdLine[0]>0&&valueSignalLine[0]>0":{
+        "short": "E",
+        "long": "E-MACD value is below Signal value, both lines are above zero"
+      },
+      "valueMacdLine[0]<valueSignalLine[0]&&valueMacdLine[0]<0&&valueSignalLine[0]<0":{
+        "short": "F",
+        "long": "F-MACD value is below Signal value, both lines are below zero"
+      },
+      "valueMacdLine[0]>0":{
+        "short": "G",
+        "long": "<hr class=\"basic\"/>G-MACD value is above zero"
+      },
+      "valueMacdLine[0]<0":{
+        "short": "H",
+        "long": "H-MACD value is below zero"
+      },
+      "valueSignalLine[0]>0":{
+        "short": "I",
+        "long": "I-Signal values ​​are above zero"
+      },
+      "valueSignalLine[0]<0":{
+        "short": "J",
+        "long": "J-Signal values ​​are below zero"
+      },
+      "valueMacdLine[1]>valueSignalLine[1]&&valueMacdLine[0]<valueSignalLine[0]":{
+        "short": "K",
+        "long": "<hr class=\"basic line\"/>K-MACD crosses Signal from top to bottom *Valid only for bar 0 (current)"
+      },
+      "valueMacdLine[1]>valueSignalLine[1]&&valueMacdLine[0]<valueSignalLine[0]&&valueMacdLine[1]>0&&valueMacdLine[0]>0&&valueSignalLine[1]>0&&valueSignalLine[0]>0":{
+        "short": "L",
+        "long": "L-MACD crosses Signal from top to bottom, both lines are above zero *Valid only for bar 0 (current)"
+      },
+      "valueMacdLine[1]>valueSignalLine[1]&&valueMacdLine[0]<valueSignalLine[0]&&valueMacdLine[1]<0&&valueMacdLine[0]<0&&valueSignalLine[1]<0&&valueSignalLine[0]<0":{
+        "short": "M",
+        "long": "M-MACD crosses Signal from top to bottom, both lines are below zero *Valid only for bar 0 (current)"
+      },
+      "valueMacdLine[1]<valueSignalLine[1]&&valueMacdLine[0]>valueSignalLine[0]":{
+        "short": "N",
+        "long": "N-MACD crosses Signal from bottom to top *Valid only for bar 0 (current)"
+      },
+      "valueMacdLine[1]<valueSignalLine[1]&&valueMacdLine[0]>valueSignalLine[0]&&valueMacdLine[1]>0&&valueMacdLine[0]>0&&valueSignalLine[1]>0&&valueSignalLine[0]>0":{
+        "short": "O",
+        "long": "O-MACD crosses Signal from bottom to top, both lines are above zero *Valid only for bar 0 (current)"
+      },
+      "valueMacdLine[1]<valueSignalLine[1]&&valueMacdLine[0]>valueSignalLine[0]&&valueMacdLine[1]<0&&valueMacdLine[0]<0&&valueSignalLine[1]<0&&valueSignalLine[0]<0":{
+        "short": "P",
+        "long": "P-MACD crosses Signal from bottom to top, both lines are below zero *Valid only for bar 0 (current)"
+      },
+      "macdfalse":{
+        "short": "Q",
+        "long": "<hr class=\"basic\"/>Q-Do not open a deal"
+      },
+      "macdHistogramm[indparms['checkBar']]['line']=='up'":{
+        "short": "A",
+        "long": "A-Indicator histogram is UP "
+      },
+      "macdHistogramm[indparms['checkBar']]['line']=='up'&&macdHistogramm[indparms['checkBar']]['value']>0":{
+        "short": "B",
+        "long": "B-Histogram indicator is UP and value above zero"
+      },
+      "macdHistogramm[indparms['checkBar']]['line']=='up'&&macdHistogramm[indparms['checkBar']]['value']<0":{
+        "short": "C",
+        "long": "C-Histogram indicator is UP and value below zero"
+      },
+      "macdHistogramm[indparms['checkBar']]['line']=='down'":{
+        "short": "D",
+        "long": "<hr class=\"basic\"/>D-Indicator histogram is DOWN"
+      },
+      "macdHistogramm[indparms['checkBar']]['line']=='down'&&macdHistogramm[indparms['checkBar']]['value']>0":{
+        "short": "E",
+        "long": "E-Histogram indicator DOWN and value above zero"
+      },
+      "macdHistogramm[indparms['checkBar']]['line']=='down'&&macdHistogramm[indparms['checkBar']]['value']<0":{
+        "short": "F",
+        "long": "F-Histogram indicator DOWN and value below zero"
+      },
+      "macdHistogramm[indparms['checkBar']]['value']>macdHistogramm[indparms['checkBar']+1]['value']":{
+        "short": "G",
+        "long": "<hr class=\"basic\"/>G-The indicator value is higher than the indicator value on the previous bar"
+      },
+      "macdHistogramm[indparms['checkBar']]['value']<macdHistogramm[indparms['checkBar']+1]['value']":{
+        "short": "H",
+        "long": "H-The indicator value is lower than the indicator value on the previous bar"
+      },
+      "macdHistogramFalse":{
+        "short": "I",
+        "long": "<hr class=\"basic\"/>I-Do not open a deal"
+      },
+      "positionSarUp": {
+        "short": "A",
+        "long": "A-The location of the Parabolic SAR above the price chart"
+      },
+      "positionSarDown": {
+        "short": "B",
+        "long": "B-The location of the Parabolic SAR under the price chart"
+      },
+      "sarFalse": {
+        "short": "C",
+        "long": "C-Do not open a deal"
+      },
+      "canUp&highLast": {
+        "short": "A",
+        "long": "A-A growth candle, the body of the candle is larger than the body of the previous one"
+      },
+      "canUp&lowLast": {
+        "short": "B",
+        "long": "B-A growth candle, the body of the candle is smaller than the body of the previous one"
+      },
+      "canDown&highLast": {
+        "short": "C",
+        "long": "C-Drop candle, the body of the candle is larger than the body of the previous one"
+      },
+      "canDown&lowLast": {
+        "short": "D",
+        "long": "D-Drop candle, the body of the candle is smaller than the body of the previous one"
+      },
+      "canmodelFalse": {
+        "short": "E",
+        "long": "E-Do not open a deal"
+      }
+    }
+  },
+  "martingale": { 
+    "any": {
+      "emptyMartingale": "Add the required number of martingale steps. Flexible settings are available to you at each step. "
+    },
+    "step": "Step",
+    "stepn": "Step №${index}",
+    "addStep": "Add step",
+    "settings": {
+      "minProfit": "Actions of the robot if the return on an asset becomes less than ",
+      "actionDecreaseProfit": "Actions in case of diminishing returns",
+      "disabledAsset": "Robot actions if the asset becomes unavailable on the platform",
+      "direction": "Direction of the deal at this martingale step",
+      "expiration":"Expiration",
+      "disabledExpiration":"Robot actions when expiry is not available",
+      "autoRatio": "Automatic calculation of the coefficient",
+      "ratio": "Coefficient",
+      "excludePreviousAsset":"Exclude the previous asset"
+    },
+    "settingsValues": {
+      "newAsset": "Move to a new asset",
+      "awaitProfit": "Wait for the yield to increase to the value in the regulation",
+      "awaitAvailabl": "Waiting for asset availability",
+      "awaitAvailablExpiration":"Waiting for expiry availability",
+      "minAvailabl":"Open with min. expiry available",
+      "stop": "Stop the series",
+      "previous": "On the initial signal of the strategy",
+      "contrPrevious": "Against the strategy's original signal",
+      "newSignals": "New signal on the strategy",
+      "on": "On",
+      "yes": "Yes",
+      "no": "No",
+      "autoCalculation":"Autocalculation",
+      "off": "Off",
+      "valRsi>tpl": {
+        "short": "B",
+        "long": "B-Indicator line is in the overbought zone"
+      }
+    }
+  },
+  "regulations": {
+    "settings": {
+      "mode": "Operation mode",
+      "timeFrom": "Operating time",
+      "minProfit": "Min. % yield",
+      "expiration": "Expiration(sec)",
+      "bet": "Rate",
+      "maxBets": "Simultaneous deals",
+      "sl": "Stop loss",
+      "tp": "Take profit"
+    },
+    "settingsValues": {
+      "trade": "Trade",
+      "signals": "Signals"
+    }
+  },
+  "strategy": { 
+    "context":{
+      "editSetings":"Settings",
+      "run":"Start",
+      "stop":"Stop",
+      "edit":"Rename",
+      "basket":"Delete",
+      "createCopy":"Create a copy",
+      "logbook":"Journal",
+      "import":"Import",
+      "export":"Export"
+    },
+    "name": {
+      "all":"All strategies",
+      "myStrategy":"New strategy",
+      "create": "Create",
+      "bbRsi": "Bollinger Lines + RSI",
+      "bbLine": "Bollinger Lines",
+      "contrataka": "Counterattack",
+      "enterStochZones": "Entering Stochastic zones",
+      "fiveAntitrand": "Against the trend 5 candles",
+      "forAntitrand": "Against the trend 4 candles",
+      "indicatorRsi": "Indicator RSI",
+      "intersectionMa": "Intersection MA",
+      "keltnerChannel": "Keltner Channel",
+      "levelHit": "Bouncing off the level",
+      "penetrationLevel": "Level penetration",
+      "stochIntersection": "Stochastic intersection",
+      "triAlternation": "Alternating 3 candles",
+      "threeCandlesAntiTrand": "Against the trend of 3 candles",
+      "threeCandlesToTrend": "On the trend of 3 candles",
+      "stochUturn": "Stochastic reversal",
+      "fourСandlesToTrend":"On the trend of 4 candles",
+      "fourСandlesAntiTrend":"Against the trend of 4 candles",
+      "commodityChannelIndex":"Indicator CCI",
+      "grail":"Grail",
+      "macdIntersection":"MACD Intersection",
+      "macdHistogram":"MACD Histogram",
+      "parabolicSAR":"Parabolic SAR",
+      "takeover":"The takeover"
+    },
+    "settingsGroup": { 
+      "assetCat": {
+        "button": "Assets",
+        "description": "Select assets"
+      },
+      "indicators": { 
+        "button": "Indicators",
+        "description": "Select indicators"
+      },
+      "regulations": {
+        "button": "Regulations",
+        "description": "Work regulations"
+      },
+      "tradingSettings": {
+        "button": "Trading settings",
+        "description": "Trading settings"
+      },
+      "martingale": {
+        "button": "Martingale",
+        "description": "Martingale"
+      }
+    },
+    "description":{ 
+      "bbRsi":"Combined trading strategy based on two popular indicators. The main one is Bollinger lines, RSI is used as a confirming one. At the opening of a new candle (bar), the robot analyzes the closing price of the previous candle and the value of the RSI indicator relative to the oversold level 30 and overbought level 70. ${spanUp}The robot will open a bullish trade if the closing price of the previous candle is below the lower Bollinger Band and the confirming RSI indicator is in the oversold zone, i.e. below the signal level of 30 ${spanDown}The robot will open a bearish trade if the closing price of the previous candle is above the upper Bollinger line and the confirming RSI indicator is in the overbought zone, i.e. above the signal level 70 <br>*In the robot settings, the current candle (bar) has a conditional ticker 0, the previous candle has a ticker -1. ",
+      "indicatorRsi":"A popular trading strategy based on the famous RSI* indicator. In this strategy, the robot checks the value of the RSI indicator at the opening of a new candle (bar). RSI levels with values of 70 and 30 (overbought and oversold levels) act as signal levels for opening trades. ${spanUp}The robot will open a trade on the rise, if at the opening of a new candle indicator RSI will be in the oversold zone, ie below the signal level 30. ${spanDown}The robot will open a downward trade if at the opening of a new candle the RSI indicator is in the overbought zone, i.e. above the signal level 70. <br>*RSI (Relative Strength Index) is a classic oscillator, which is built based on calculating the relative rate of change in asset quotes over a given period.",
+      "bbLine":"A very effective trading strategy used in all financial markets, based on the famous Bollinger Lines indicator*. At the opening of a new candle (bar), the robot analyzes the closing price of the previous candle ${spanUp}The robot will open a deal on the upside, if the closing price of the previous candle will be below the lower Bollinger line.${spanDown}The robot will open a deal on the downside, if the closing price of the previous candle will be above the upper Bollinger line.<br>*Bollinger lines (Bollinger bands) - a tool for technical analysis of financial markets, reflecting the current deviations in the price of an asset. The indicator is calculated based on the standard deviation of a simple moving average.",
+      "contrataka":"A trading strategy that is advisable to use specifically on binary options, including during news releases. In this strategy, the robot uses a simple algorithm and bets on the rebound of the price at the formation of a signal candle, the minimum size of which is 100 pips ${spanUp}The robot will open a trade on the upside, as soon as the signal candle of the fall is formed, the minimum size of which is 100 pips ${spanDown}The robot will open a trade on the downside, as soon as the signal candle of growth is formed, the minimum size of which is 100 pips",
+      "enterStochZones":"A trading strategy, the main idea of which is to determine the moment of entry of the fast stochastic %K line into the overbought (above the 80 level) or oversold (below the 20 level) zone ${spanUp}The robot will open a trade on the upside as soon as the fast stochastic %K line enters the oversold zone (below the signal level of 20) ${spanDown}The robot will open a trade on the downside as soon as the fast stochastic %K line enters the overbought zone (above the signal level of 80) <br>*Stochastic oscillator (stochastic oscillator) - an indicator of technical analysis, which shows the position of the current price relative to the range of prices for a certain period in the past. It is measured in percent.",
+      "threeCandlesToTrend":"A simple trading strategy suitable for trading in the trending market. In this strategy, the robot tracks a combination of 3 consecutive candles (bars) of the same direction, and opens a trade to continue the price movement in the same direction. ${spanUp}The robot will open a trade on the upside as soon as 3 consecutive up candles are formed with the set minimum size of each candle ${spanDown}The robot will open a trade on the downside as soon as 3 consecutive down candles are formed with the set minimum size of each candle <br>*In the settings of the robot, the current candle (bar) has a conditional ticker 0, the previous candle respectively ticker -1.",
+      "threeCandlesAntiTrand":"A simple trading strategy suitable for calm markets. In this strategy the robot tracks a combination of 3 consecutive candles (bars) of the same direction and opens a trade for the opposite price movement, i.e. reversal. ${spanUp}The robot will open a trade on the upside as soon as 3 consecutive down candles are formed with the set minimum size of each candle ${spanDown}The robot will open a trade on the downside as soon as 3 consecutive up candles are formed with the set minimum size of each candle <br>*In the settings of the robot, the current candle (bar) has a conditional ticker 0, the previous candle respectively ticker -1 ",
+      "intersectionMa":"A classic trading strategy for all financial markets, built on the crossover of moving averages MA*. In this strategy, the robot monitors the location of the moving averages MA (5) and MA (20) on each tick, that is, simple moving averages with periods of 5 and 20. A deal is opened when these moving averages cross. ${spanUp} The robot will open a bullish trade as soon as the moving average MA (5) crosses the moving average MA (20) from bottom to top ${spanDown} The robot will open a downside trade as soon as the moving average MA (5) crosses the moving average MA (20) from top to bottom <br>*Moving Average (MA) is a technical analysis tool that is a line connecting points on the price chart , constructed by calculating the average price value over the last few bars.",
+      "keltnerChannel":"An effective trading strategy used in all financial markets, based on the Keltner Channel indicator*.In this strategy, the robot analyzes the chart of the asset price relative to the indicator bands at the opening of each new candle (bar). upper band of the indicator <br>*Keltner channel is a technical indicator consisting of two bands above and below the moving average of the price indicator, the width of which is determined as a proportion of the average price change for the period.",
+      "levelHit":"One of the most popular trading strategies among traders, which is based on support and resistance levels. In this strategy, the robot determines local highs and lows of the price on a certain time period*, which is set by the trader in the robot settings ${spanUp}The robot will open an up trade as soon as the asset price on a certain tick becomes below the support level (local minimum for the period) ${spanDown}The robot will open a down trade as soon as the asset price on a certain tick becomes above the resistance level (local maximum for the period)<br>* The «period» parameter in the robot is the number of candlesticks to determine levels.",
+      "penetrationLevel":"One of the popular momentum strategies for intraday trading based on support and resistance levels. In this strategy, the robot determines local highs and lows of the price on a certain time period*, which is set by the trader in the robot settings ${spanUp}The robot will open an up trade as soon as the asset price on a certain tick becomes above the resistance level (local maximum for the period) ${spanDown}The robot will open a down trade as soon as the asset price on a certain tick becomes below the support level (local minimum for the period) <br>* The «period» parameter in the robot is the number of candles to determine the levels.",
+      "stochIntersection":"A popular trading strategy based on the crossing of stochastic lines*. In this strategy the robot tracks on each tick the location of the fast (%K) and slow (%D) stochastic lines when both lines are in overbought or oversold zones ${spanUp}The robot will open a trade to the upside as soon as the fast stochastic line %K crosses the slow stochastic line %D from bottom to top, and the crossing of the lines will occur in the oversold zone (below the signal level 20) ${spanDown}The robot will open a down trade as soon as the fast stochastic line %K crosses the slow stochastic line %D from above downwards, and the crossing of the lines will occur in the overbought zone (above the signal level 80). <br>*Stochastic oscillator (stochastic oscillator) is an indicator of technical analysis, which shows the position of the current price relative to the range of prices for a certain period in the past. It is measured in percent.",
+      "fourСandlesToTrend":"A simple trading strategy suitable for trading in the trending market. In this strategy, the robot tracks a combination of 4 consecutive candles (bars) of the same direction, and opens a trade to continue the price movement in the same direction. ${spanUp}The robot will open a trade on the upside as soon as 4 consecutive up candles are formed with the set minimum size of each candle ${spanDown}The robot will open a trade on the downside as soon as 4 consecutive down candles are formed with the set minimum size of each candle <br>*In the settings of the robot, the current candle (bar) has a conditional ticker 0, the previous candle respectively ticker -1.",
+      "fourСandlesAntiTrend":"A simple trading strategy suitable for calm markets. In this strategy, the robot tracks a combination of 4 consecutive candles (bars) of the same direction and opens a trade for the opposite price movement, i.e. for reversal. ${spanUp}The robot will open an up trade as soon as 4 consecutive down candles are formed with the set minimum size of each candle ${spanDown}The robot will open a down trade as soon as 4 consecutive up candles are formed with the set minimum size of each candle <br>*In the robot settings, the current candle (bar) has a conditional ticker 0, the previous candle respectively ticker -1",
+      "stochUturn":"A trading strategy, the main idea of which is to determine the moment. The robot will open the deal наment when the fast stochastic %K line leaves overbought (above the 80 level) or oversold (below the 20 level) zones, which may mean a short-term trend change (reversal). ${spanUp} up as soon as the fast stochastic %K line leaves the oversold zone, i.e. crosses the signal level 20 from bottom to top ${spanDown}The robot will open a down trade as soon as the fast stochastic %K line leaves the overbought zone, i.e. crosses the signal level 80 from the top downwards. <br>*Stochastic oscillator (stochastic oscillator) - an indicator of technical analysis, which shows the position of the current price relative to the range of prices for a certain period in the past. Measured as a percentage.",
+      "commodityChannelIndex":"A popular trading strategy based on the CCI* indicator. In this strategy, the robot checks the value of the CCI indicator at the opening of a new candle (bar).CCI levels with values of 100 and -100 (overbought and oversold levels) are the signal levels for opening trades. ${spanUp}The robot will open a trade on the rise, if at the opening of a new candle indicator CCI will be in the oversold zone, i.e. below the signal level -100..${spanDown}The robot will open a down trade if at the opening of a new candle CCI indicator will be in the overbought zone, i.e. above the signal level of 100. *CCI (Commodity Channel Index) - technical indicator based on the analysis of the current change in price deviation from its average value for a certain period  ",
+      "macdIntersection":"A widely applicable trading strategy for all financial markets, built on the intersection of moving averages MACD*. In this strategy, the robot tracks the intersection of the main MACD line with the signal line (Signal) on the current candle (bar) ${spanUp}The robot will open a bullish deal as soon as the main MACD line crosses the Signal line from bottom to top ${spanDown}The robot will open a bearish deal as soon as the main MACD line crosses the Signal line from top to bottom <br><br>*MACD (Moving Average Convergence/Divergence) - stands for <moving average convergence/divergence>. One of the most popular indicators, which is quite simple, but at the same time, very versatile. This tool can be used both as a trend indicator (since it is based on moving averages) and as an oscillator. The indicator consists of three components: MACD line, signal line, histogram.",
+      "macdHistogram":"A trading strategy based on the MACD histogram. Recommended for use as an additional indicator. In this algorithm, the robot tracks the direction (color) of the MACD histogram bars ${spanUp}The robot will open a bullish trade at the opening of a new bar: if bar -1 was UP (green), and bar -2 was DOWN (red). ${spanDown}The robot will open a bearish trade at the opening of a new bar: if bar -1 was DOWN (red), and bar -2 was UP (green). <br><br>*MACD (Moving Average Convergence/Divergence) - stands for <moving average convergence/divergence>. One of the most popular indicators, which is quite simple, but at the same time, very versatile. This tool can be used both as a trend indicator (since it is based on moving averages) and as an oscillator. The indicator consists of three components: the MACD line, the signal line, and the histogram.",
+      "parabolicSAR":"A trading strategy for all financial markets based on the well-known Parabolic SAR* indicator.In this strategy, it tracks the change in the position of the indicator points relative to the price chart at the opening of a new bar. ${spanUp}The robot will open an upward trade as soon as an indicator point is formed below the price chart at the opening of a new bar after at least 5 consecutive indicator points located above the price chart, which may indicate a trend change from bearish to bullish ${spanDown}The robot will open a downgrade deal as soon as an indicator point is formed above the price chart at the opening of a new bar after at least 5 consecutive indicator points located below the price chart, what could indicate a trend change from bullish to bearish <br><br>*The Parabolic SAR technical indicator is designed to analyze trending markets. The indicator is based on a price chart. In its meaning, this indicator is similar to the moving average, with the only difference that the Parabolic SAR moves with great acceleration and can change its position relative to the price. On the \"bullish trend\" (Up Trend), the indicator is below prices, on the \"Bearish Trend\" (Down Trend) it is higher.",
+      "takeover":"A candle combination trading strategy that is popular with candle analysis enthusiasts. <br> The strategy is based on the \"Candle Patterns\" indicator built into the robot. In this strategy, the robot tracks a combination of 2 consecutive candlesticks (bars) ${spanUp}The robot will open a raise deal as soon as a growth candle is formed, the body size of which is larger than the size of the previous drop candle ${spanDown}The robot will open a downside deal as soon as a drop candle is formed, the body size of which is larger than the size of the previous growth candle <br><br>*In the robot's settings, the current candle (bar) has a conditional ticker of 0, and the previous candle has a corresponding ticker of -1."
+    }
+  },
+  "assetGroups": {
+    "currency": "Currencies",
+    "commodity": "Primary commodities",
+    "cryptocurrency": "Cryptocurrencies",
+    "index": "Indices",
+    "stock": "Shares",
+    "selected": "Selected"
+  },
+  "assetInfo":{
+    "title":"Name of the asset",
+    "id":"Asset ID",
+    "group":"Asset Group",
+    "minExp":"Minimum expiration",
+    "profit":"Return on the asset",
+    "timeUpdate":"status as of the"
+  },
+  "shop":{   
+    "categories":{
+      "strategy":"Prepared strategies",
+      "mtExpert":"Other",
+      "promoCodes":"Promocodes"
+    },
+    "products":{
+      "noOffers":"No offers yet.",
+      "bonus50":"Bonus 50% on top-up balance",
+      "appBridge":"Bridge for interaction with the advisor MT4/MT5",
+      "FAD795":"Gives +50% when depositing from $50",
+      "mt5scaner":"MT5 indicator scanner."
+    },
+    "description":{
+      "appBridge":"Program for signals translation from MT4/MT5 to PocketOptionRobot.",
+      "mt5scaner":"A program for reading and broadcasting signals from MT5 to PocketOptionRobot."
+    }
+
+  },
+  "tether":{ 
+    "createPassword":"Create a password to log in to your wallet", 
+    "createWallet":"Create a wallet",
+    "empty":"Empty", 
+    "findEmpty":"Search didn't turn up any results", 
+    "table":{
+      "coin":"Coin",
+      "coinName":"Title",
+      "balance":"Balance",
+      "action":"Action",
+      "noresult":"No operations found"
+    },
+    "coins":"Coins",
+    "exchange":"Exchange",
+    "netName":"TRON(TRC20)",
+    "welcomeBack":"Welcome back!",
+    "welcome":"Welcome to decentralized cryptocurrency wallet MyTether.",
+    "unlock":"Unlock",
+    "password":"Password",
+    "selectAccount":"Select an account",
+    "addAddress":"Add an account or hardware wallet",
+    "confirmDeletion":"Confirm account deletion",
+    "confirmDeletionAddress":"Do you really want to delete the account ${addressName} <br> ${address} ?",
+    "accountDetails":"Business card",
+    "myUSDT":"My USDT",
+    "noAccounts":"No invoices were found for this search query",
+    "viewInvoice":"View account",
+    "deleteAccaunt":"Delete account",
+    "editName":"Change account name",
+    "copyAddress":"Copy address",
+    "generateAccount":"Generate an account",
+    "generateAccountDesc":"Create a hot wallet \"myUSDT\"",
+    "addAccaunt":"Adding an account",
+    "importAccaunt":"Import an account",
+    "importAccauntDesc":"Import an account from a mnemonic phrase or from a private key" ,
+    "addLedgerPair":"Pair with Ledger", 
+    "addTronlink":"Pair with TronLink",
+    "addTronlinkDesc":"Connect TronLink to use your wallet",
+    "addLedgerPairDesc":"Connect Ledger to utilize your hardware wallet",
+    "accauntName":"Account Name",
+    "safetyInfo":"Please write down the mnemonic phrase on paper and keep it in a safe place!",
+    "warningText":"Anyone with your mnemonic phrase can access all of your resources. Please keep the information in a safe place.",
+    "warningNotScrin":"Please do not take screenshots that can be intercepted by hackers. Keep your data safe.",
+    "viewMnemonic":"Showing", 
+    "confirmNewAddressTitle":"Confirm account creation",
+    "confirmNewAddress":"The mnemonic phrase is stored exclusively in the extension. No one else can access this information except you.If you lose a mnemonic phrase, you will not be able to recover it.<br>Are you sure you've retained the mnemonic phrase?",
+    "successfullyAddress":"Your account has been successfully created.",
+    "successImportAddress":"Your account has been successfully imported.",
+    "youAddress":"Your wallet number (address)",
+    "placeholderTextareaMnemonic":"Insert or enter your mnemonic phrase or private key",
+    "accountAdded":"This account has already been added to your wallet",
+    "accountMultiSign":"This account requires a multi-signature. MyTether does not support this functionality.",
+    "connectLedger":"Make sure Ledger is unlocked and connect the device to your computer.",
+    "ledgerBlueNotSupported":"Ledger Blue is not currently supported",
+    "ledgerUnlock":"Unlock Ledger",
+    "ledgerTronIn":"Open TRON on Ledger",
+    "successAddressPairCreated":"The pairing with Ledger was successful",
+    "successTronlinkPairCreated":"The pairing with TronLink has been successfully established",
+    "verifyAddress":"Confirm address",
+    "verifyTronLinkAddress":"Confirm the address in TronLink",
+    "deviceNotFound":"Device not found",
+    "addressesNoMatch":"Failure to create a pair. Signature error.",
+    "errorSign":"Signature error.", 
+    "cancelSign":"Error creating a pair. Signature failure.",
+    "coinExchange":"Coin exchange",
+    "feemyTether":"Commission: ${tfc} TFC (≈ $${tfcUsd})", 
+    "feenetTron":"Commission: ${trx} TRX (≈ $${trxUsd})",
+    "feeEconomy":"Savings due to myTether ≈ $${economy}",
+    "minAmountExchange":"Minimum exchange amount ${amount} ${coin}.",
+    "signCancelled":"Signature canceled",
+    "ledgerNotMatchAddressSelected":"Address in your Ledger does not match the address selected in myTether",
+    "tronLinkNotMatchAddressSelected":"Address in your TronLink does not match the address selected in myTether",
+    "signed":"Transaction Signature",
+    "coinExchangeData":"Coin exchange, ${from} on ${to}.",
+    "sendCoin":"Send ${amount} ${coin}",
+    "sender":"Sender",
+    "recipient":"Recipient",
+    "target":"Assignment:",
+    "signLedger":"Confirm the transaction on your Ledger",
+    "exchangeAgreed":"Exchange agreed upon",
+    "sendCoinAgreed":"Transfer has been sent.",
+    "exchangeNoAgreed":"Exchange is not agreed upon",
+    "sendCoinNoAgreed":"Transfer has not been sent",
+    "exchangeTransactionAccepted":"Exchange transaction accepted, exchange completed.",
+    "sendCoinTransactionAccepted":"Coin transfer transaction sent to the network for execution.",
+    "exchangeTransactionNoAccepted":"Exchange transaction not accepted, try again a little later.",
+    "sendCoinTransactionNoAccepted":"Coin transfer transaction not accepted, try again a little later.",
+    "sendToken":"Send tokens ${tokenId}",
+    "receiverAddress":"Recipient's address",
+    "amount":"Amount",
+    "available":"Available: ${balance} ${coinID}",
+    "transferFee":"Fee for transfer ${amount} ${coinID}", 
+    "transferUser":"Transfer ${amount} ${coinID} another user",
+    "transferUserComment":"Transfer ${amount} ${coinID}<br> to: ${address}",
+    "addressServis":"Service address",
+    "operationDetails":"Operation details",
+    "status":"Status:",
+    "block":"Block:",
+    "date":"Date:",
+    "addressFrom":"Sender",
+    "addressTo":"Recipient",
+    "amountShort":"Amount:", 
+    "exportAddress":"Export account",
+    "fee":"Commission:",
+    "privateKey":"Private key:",
+    "mnemonic":"Mnemonic phrase:",
+    "account":"Address:", 
+    "sourcesAddress":{
+      "myTetherAddress":"My accounts",
+      "addressBook":"Address book"
+    },
+    "settings":{  
+      "change":"Change",
+      "changePassword":"Change password",
+      "addressBook":"Address book",
+      "lock":"Lock it down"
+    },
+    "changePassword":{
+      "0":"Enter the current password",
+      "1":"Enter a new password",
+      "2":"Repeat new password"
+    },
+    "error":{   
+      "noEmpty":"It doesn't have to be empty",
+      "invalidAddress":"Incorrect address",
+      "addressExistsBook":"Entry exists in the address book",
+      "addressExists":"A record exists in your accounts",
+      "sAddressExists":"Record \"Service\" already exists",
+      "receiverAddressYours":"Sender matches the recipient.",
+      "incorrectAccount":"Incorrect address format.",
+      "notEnoughCoins":"Not enough coins.",
+      "errorDesc":"Error: ${reason}",
+      "calcFee":"commission calculation",
+      "noConnectionNetTron":"No connection to the TRON network",
+      "unexpectedError":"Unforeseen error",
+      "notEnoughTFC":"Not enough coins ${feecoinName} to charge a shipping fee ${coinID}. <a href=\"#\">Swap</a> required amount of TFC and try again.",
+      "failedGetRestCoins":"Failed to get the rest of the coins",
+      "transactionFarmError":"Transaction formation error",
+      "transactionNotSigned":"Transaction not signed.",
+      "errorSendTransaction":"Error sending a transaction to the network.",
+      "errorNum":"Error ${num}",
+      "invalidPassword":"You have entered an incorrect password.",
+      "passwordsNoMatch":"Passwords don't match"
+    },
+    "prompt":{ 
+      "deleteAddresBookTitle":"Deleting a entry",
+      "deleteAddresBook":"Do you really want to delete the entry <b>\"${address}\"</b> (${userName})?"
+    },
+    "placeholder":{
+      "userName":"Name abbreviated",
+      "address":"Address",
+      "description":"Description"
+    },
+    "notification":{
+      "addAddressBookShort":"Added an entry \"<b>${userName}</b>\".",
+      "addAddressBook":"Address \"<b>${address}</b>\" added to the address book.",
+      "deleteAddressBookShort":"Deleted entry \"<b>${userName}</b>\".",
+      "deleteAddressBook":"Address \"<b>${address}</b>\" deleted from the address book."
+    },
+    "txComment":{ 
+      "feeFor":"Fee for <a href=\"${url}\">transaction</a>",
+      "privateTransfer":"Private transfer",
+      "refund":"Refund of fee for <a href=\"${url}\">transaction</a>",
+      "exchange":"Exchange ${amountFrom} ${coinIdFrom} on ${amountTo} ${coinIdTo}",
+      "sendCoinUser":{
+        "txUser":"Private coin transfer",
+        "txFee":"Coin transfer fee debited.",
+        "refund":"Refund of fee for unfulfilled coin transfer."
+      },
+      "exchangeCoinUser":{
+        "txUser":"Transfer of coins to an exchange service.",
+        "txExchange":"Coin transfer from an exchange service.",
+        "refund":"Return of coins from the service for unfulfilled exchange."
+      }
+      
+      
+    }
+  },
+  "platform":{  
+    "tooltipNlabelPoButton":"Auto<br>trade",
+    "tooltipContentPoButton":"Autotrading<br>Open the robot to select a strategy",
+    "stateRobot":"Robot status",
+    "status":"Status:",
+    "textStatus":{
+      "error":"Error",
+      "errorConnectingBroker":"Error connecting to Pocket Option",
+      "errorLicenseVerification":"License verification error",
+      "disabled":"Disconnected.",
+      "overdue":"Expired ${date}",
+      "expires":"To ${date}",  
+      "NotValid":"Not valid.",
+      "farmStrategy":"Connecting strategies",
+      "errorFarmStrategy":"Error in strategy settings",
+      "connectDemo":"Connected. Demo account.",
+      "connectReal":"Connected. Real account.",
+      "сonnection":"Connection",
+      "noСonnectServerRobot":"No connection to the robot server (${type}).",
+      "connectRobotServer":"Connecting to the robot server.",
+      "disconnectServerRobot":"Broken connection with the robot server",
+      "licenseVerification":"License verification",
+      "connectingBroker":"Connection to Pocket Option"
+    },
+    "license":"License",
+    "licenseStatus":{
+      "unlimited":"Unlimited",
+      "licenseBefore":"To ${date}",
+      "notdefined":"Unspecified"
+    },
+    "chartWork":"Graphs in the works",
+    "api":{
+      "networkBridge":"Network bridge",
+      "localhost":"Local server",
+      "robotServer":"Robot server",
+      "connectNetworkBridge":" Network bridge connected \"${bridge}\"",
+      "errorConnectNetworkBridge":"Network bridge connection error \"${bridge}\""
+    },
+    "notification":{
+      "changesRunStrategy":"Changes in the launched strategy.",
+      "runStrategyTitle":"Strategy launched.",
+      "stopStrategyTitle":"Stopped strategy.",
+      "runStrategyText":"Strategy launched <b>\"${startegyName}\"</b>. In the near future the robot will load the necessary charts and start trading.",
+      "stopStrategyText":"Strategy <b>\"${startegyName}\"</b> stopped.",
+      "inStrategy":"In strategy. <b>\"${startegyName}\"</b> modified:",
+      "changesStrategyAssets":"</br>- List of selected assets.",
+      "changesStrategyIndicators":"</br>- Indicator settings.",
+      "changesStrategyMartingale":"</br>- Martingale settings.",
+      "changesStrategyRegulations":"</br>- Regulation settings.",
+      "tradeSignalTitle":"Strategy signal ${strategy}",
+      "tradeSsignal":"Asset signal ${asset} direction ${action}",
+      "call":"upwards ▲",
+      "put":"down ▼",
+      "noNotifyAnymore":"No more notification",
+      "licenseExpired":"Attention! Your license has expired.<br>",
+      "licenseSoonExpired":"Attention! Your license to use the robot is about to expire.<br>",
+      "licenseExpiredText":"To get an unlimited license to use the robot, register an account on the Pocket Option platform at <span class=\"aff-linc hoverUnderline\">link</span> of our project, or by using the form below."
+    }
+  },
+  "logsBook":{ 
+    "iteamTitle":{
+      "launch":"Strategy launched.",
+      "stopped":"Strategy stopped.",
+      "changes":"Changes were made to the launched strategy.",
+      "assets":"Assets",
+      "indicators":"Indicators",
+      "indicator":"Indicator №${index} ${name}",
+      "parms":"Parameters:",
+      "conditions":"Open a deal:",
+      "signalDown":"↓ Sell signal",
+      "signalUp":"↑ Buy signal",
+      "regulations":"Regulations",
+      "martingaleSetings":"Martingale settings",
+      "martingale":"Martingale settings",
+      "changed":"Changes in settings.",
+      "informationAssets":"Asset information"
+    },
+    "filter":"Filter",
+    "emptyLogBook":"Journal is empty",
+    "demoAccaunt":"Demo account.",
+    "realAccaunt":"Real account.",
+    "connectPlatform":"Connection to the platform server is established.",
+    "connectRobot":"Connection to the robot server is established.",
+    "disconnectPlatform":"Connection to the platform server disconnected. ${reason}", 
+    "disconnectRobot":"Broken connection to the robot server",
+    "strategyLogbook":"Log of extreme launch by strategy ${strategy}",
+    "byUser":"User",
+    "stopTP":"Achieved TP",
+    "stopSL":"Achieved SL",
+    "startExpert":"Strategy launched \"${startegyName}\"",
+    "stoppedExpert":"Stopped strategy. Trading result (demo ${1} / real ${0})",
+    "slReached":"Stop loss reached",
+    "tpReached":"Take profit reached",
+    "changedAssetsList":"Changed the list of selected assets.",
+    "changedIndicators":"Indicator settings have been changed.",
+    "changedMartingale":"Changed martingale settings.",
+    "changedRegulations":"Changed settings of trade regulations.",
+    "assetNotSelected":"External signal received on the asset <f>${asset}</f>, that is not selected in the strategy.",
+    "assetNotExist":"External signal received on the asset <f>${asset}</f>, that's not on the platform.",
+    "conditionsAssetRefusal":"Asset signal <f>${asset}</f>. Rejection.",
+    "assetSignal":"Asset signal <f>${asset}</f>.",
+    "openTradingSeries":"Opening a new trade series, ID: <f>${tsid}</f>.",
+    "continueTradingSeries":"Continuing the trading series, ID: <f>${tsid}</f>.",
+    "expirationBelowMinimum":"Expiration according to the regulations ${rexp} s. below the minimum available ${aexp} s.",
+    "maximumOperation":"In the strategy according to the regulations, the maximum number of series is already open",
+    "isSeriesUsedAsset":"There are series that have used/are being used by the asset.",
+    "ErrorCheckConditionsAsset":"Asset condition check error <f>${asset}</f>.",
+    "noWorkingTime":"Non-working hours of strategy.",
+    "insufficientFunds":"Insufficient funds in the account.",
+    "assetUnavailable":"Asset is not available for trading",
+    "yieldAssetNotMatch":"Yield ${yield} % is invalid according to the settings.",
+    "insufficientBars":"Insufficient number of bars",
+    "anExternalSignal":"External signal received ${signal} by asset <f>${asset}</f>.", 
+    "сheckingFollowingIndicators":"Checking the following indicators.",
+    "licenseNotValid":"License to use the robot is invalid",
+    "loadAsset":"Schedule by asset <f>${asset}</f> ${period}s. loaded.",
+    "errorLoadAsset":"Error loading the schedule by asset <f>${asset}</f> ${period}s.",
+    "gapFlowQuotes":"Gap in the flow of quotes for the asset <f>${asset}</f> ${period}s. Asset reboot.",
+    "accautBalance":"Account balance ${balance}",
+    "openOrder":"Deal opened",
+    "closeOrder":"Deal closed ",
+    "orderData":"id ...<f>${id}</f><hide>${requestId}</hide> ${exp}s. <f>${asset}</f> on ${amount}$.",
+    "closeOrderData":"id ...<f>${id}</f><hide>${requestId}</hide> ${exp}s. <f>${asset}</f> on ${amount}$ result ${profit}$.",
+    "openedStepMartingale":"Open in step №${step} martingale.",
+    "stepMartingale":"A step was used №${step} martingale.",
+    "command":{
+      "0":"upwards ▲",
+      "1":"down ▼"
+    },
+    "failopenOrder":"Order opening error. ${reason} .Opening request <f>${id}</f>.",
+    "failCloseOrder":"Order opening error ...<f>${id}</f>. ${reason}<hide>${requestId}</hide>",
+    "stopSeries":"Trade series has been stopped",
+    "descriptionFirstFailopenOrder":"Since this deal is the first in the series, its opening error will not cause damage, the series will be closed.",
+    "failopenOrderRepeat":"Retry after 3sec.",
+    "waitingSignal":"Waiting for another signal.",
+    "seriesSwitchedAnotherSignal":"The series is switched to search for another signal on any asset.",
+    "seriesWaitAnotherSignal":"Search for another signal on any asset.",
+    "failopenOrderRepeatLimit":"Number of repeated attempts to open an order ${attempts}. Series is switched to search for another signal on any asset.",
+    "noAssetInformationPlatform":"Error. There is no asset information on the platform <f>${asset}</f>.",
+    "noAssetInformationPlatformRepeat":"Retry after 3sec.",
+    "noAssetInformationPlatformLimit":"Number of repeated attempts to obtain information on the asset <f>${asset}</f> ${attempts}. Series is switched to search for another signal on any asset.",
+    "noInstructionsMartingale":"<hide>${requestId}</hide>There are no step instructions №${step} martingale, concluding the trading series.",
+    "notEnoughFundsBetBalance":"Insufficient funds on the account, I bet the entire balance ${balance}$.",
+    "remainderLessMinimum":"Balance is less than the minimum bet, I'm stopping the series.",
+    "specifiedExpirationMartingaleNotAvailable":"Set expiration ${expiration}s. in ${step} martingale step is unavailable. ",
+    "newAsset":"According to the settings, waiting for a new signal",
+    "awaitAvailablExpiration":"According to the settings, waiting for a new signal on the asset <f>${asset}</f>",
+    "minAvailabl":"According to the settings, I open the minimum available.",
+    "stop":"According to the settings, I'm wrapping up the series.",
+    "applyMartingaleAssetUnavailable":"When trying to apply step №${step} of the martingale, the asset <f>${asset}</f> became unavailable. ",
+    "applyMartingalProfitDecreased":"When trying to apply step №${step} martingale on asset <f>${asset}</f> decreased profitability. ",
+    "delayReceivingDataClosing":"<hide>${requestId}</hide> Delay ${s} s. in receiving data on closing a trade, when trying to apply step №${step} of martingale on asset <f>${asset}</f>.",
+    "awaitAvailabl":"According to the settings, waiting for a new signal on the asset <f>${asset}</f>.", 
+    "awaitProfit":"According to the settings, waiting for a new signal on the asset <f>${asset}</f>",
+    "tradeSeries":"Trade series ID <f>${tsid}</f>: ",
+    "errorMakeHistory":"Error when trying to update a record in the history. Deal ${id} Error ${reason}",
+    "dealEscortStopped":"Deal support id ...<f>${id}</f><hide>${requestId}</hide> stopped",
+    "noInformationOpenOrder":"On request <f>${id}</f> of opening a deal there is no confirmation more than ${s} s. A second attempt will be made to retrieve information from the platform.",
+    "noInformationCloseOrder":"<hide>${requestId}</hide> No confirmation of order closing <f>${id}</f> over ${s} s. A second attempt will be made to retrieve information from the platform.",
+    "errors":{
+      "IncorrectMaxAmount": "Max. amount ${amount}",
+      "IncorrectMinAmount": "Min. amount ${amount}",
+      "min_max_amount": "Incorrect amount",
+      "UnexpectedError": "There was an unforeseen error",
+      "unexpected_error_please_try_later": "Unexpected error. Please try again later.",
+      "IncorrectExpTime": "The set expiry is not available",
+      "CannotGetPrice": "Unable to get a price",
+      "cannot_get_asset": "Failed to retrieve asset data",
+      "NotEnoughFunds": "Insufficient funds",
+      "InvalidPayout": "You can place a deal where the payout is more than 0%",
+      "incorrect_payout": "Incorrect payment",
+      "AccountNotFound": "Account not found",
+      "InvalidOptionType": "Incorrect trade type",
+      "MaxDemoTrades":"Maximum limit of open deals - ${amount}",
+      "noInformationOpeningOrder":"No information about opening a deal on the platform.",
+      "noInformationCloseOrder":"There is no information about the closing of deal on the platform."
+    },
+    "byUsingSignalAsset":"On this signal on asset ${asset} there's already been a deal.",
+    "amountExceedsMaximumAllowed":"<hide>${requestId}</hide>Deal amount ${amount} $ exceeds the maximum allowed (${maxBet} $) according to your level. The maximum bid will be opened.",
+    "strategyStopped":"Strategy stopped.",
+    "tradeSeriesEscortStopped":"The series has been discontinued."
+  },
+  "manual":{ 
+    "categories":{
+      "mainProvisions":"General Provisions",
+      "trade":"Trade",
+      "autoTrade":"Autotrading",
+      "strategies":"Strategies",
+      "indicators":"Indicators",
+      "history":"History",
+      "historyLong":"History - section with detailed information about each trade and martingale series.",
+      "shop":"Store",
+      "trc20":"MyTether wallet",
+      "addAccount":"Adding an account",
+      "coins":"Coin support",
+      "walletDesc":"About the wallet",
+      "sendCoin":"Send coins",
+      "receiveCoin":"Get coins",
+      "logbook":"Trade Journal",
+      "regulations":"Regulations",
+      "martingale":"Martingale",
+      "assets":"Assets",
+      "assetSelection":"Asset selection",
+      "aindicatorsSelection":"Indicator selection",
+      "regulationsSelection":"Regulations settings",
+      "regulationsMartingale":"Martingale settings",
+      "myTether":"MyTether",
+      "externalSignal":"External signal",
+      "tradingview":"TradingView", 
+      "assetIdInfo":"Asset information"   
+    },
+    "pages":{ 
+      "whatIsPocketOptionRobot":"<b>PocketOptionRobot</b> – a unique application for automated trading on the Pocket Option digital options platform. The robot is designed as an extension to the browser <span class=\"icon status\"></span> <span>Google Chrome</span> and has no analogues.<br> The robot is RESOLVED for use on the platform, it does not use prohibited algorithms.<br> With the help of the robot, a trader will be able to:",
+      "openAutomaticTransactions":"Open automatic trades using ready-made PocketOptionRobot basic strategies available in the «Store» section of the extension.",
+      "createYourStrategies":"Create your own strategies, including using strategy templates from the Store.",
+      "useRobotFreeRegisterAccount":"To use the robot for free, register an account on the Pocket Option platform to <span class=\"aff-linc hoverUnderline\">link</span> of our project, or by using the form below.",
+      "registrationForm":{
+        "email":"Email",
+        "password":"Password", 
+        "approval":"I read and agreed to the agreement: <a href=\"${urlOffer}\" target=\"_blank\" action=\"openOffer\">Public Offer Agreement</a>",
+        "registration":"Registration",
+        "waiting":"Expect"
+      },
+      "whatAlreadyRegisteredPocketOption":"What to do if you are already registered on Pocket Option and would like to use the robot? <br>There are 2 options for free robot connection, both are allowed on Pocket Option:",
+      "contactSupportRequestId":"You can contact the Pocket Option support team with a request to assign your existing account to a partner with an id <span class=\"aff-id hoverUnderline\">${affcode}</span> (our affiliate code). If you have not previously been assigned to another partner, this option will work for you! ",
+      "deleteOldAccount":"If your account is already linked to another partner, the broker is allowed to delete the old account and register a new one to <span class=\"aff-linc hoverUnderline\">link</span> our project. All you'll need is a different e-mail. Next, you will be quickly verified and can use the robot! We recommend cleaning your browser before registering a new account.",
+      "thisTheMainMenuBlock":"This is the main menu block, where you can choose a suitable strategy with the necessary settings or create your own strategy using a set of indicators built into the robot",
+      "toSwitchStrategySettingMode":"To enter the strategy settings mode, click on it with the left mouse button or, by right-clicking on it, select the «Settings» context menu item. You will be presented with 4 consecutive blocks with settings",
+      "toLaunchStrategySliderOnPosition":"To start the strategy, drag the slider to the ON position, or you can right-click the mouse and select the context menu item «Activate»",
+      "toStopStrategySliderOffPosition":"To disable the strategy, drag the slider to the OFF position, or you can right-click to select the «Stop»context menu item",
+      "youCreateStrategyBasedSettings":"You can create a strategy according to your own settings. To do this, click on the «Create» button",
+      "youDeleteStrategy":"You can delete a strategy by selecting the «Delete»context menu item",
+      "youCreateCopyStrategy":"You can create a copy of the strategy by selecting the «Create a copy» context menu item",
+      "loggingPlatformAccountLicenseUnlimited":"If you have registered an account to <span class=\"aff-linc hoverUnderline\">link</span> our project, then after authorization on the platform at the top of the screen you will see the information panel «Robot Status», where it is indicated that the robot is connected and the license is unlimited. ",
+      "allAssetsPlatformAvailable":"All assets on the platform are available for selection. For user convenience, assets are categorized",
+      "selectDesiredAssetSimplyClick":"To select the desired asset, simply click on it and it will be added to the «Selected» category. A «Select All» function is also available.",
+      "convenienceSearchOption":"For convenience, it is possible to search for an asset by its name.",
+      "addNewIndicatorStrategy":"To add a new indicator to the strategy, press «+» against the corresponding indicator. By adding an additional indicator, you are actually creating your own new strategy.",
+      "checkingCondition":"Verify the condition. Here select a new bar or a new tick. If we select a new tick, the robot will check the indicator value continuously. If we select a new bar, the robot checks the indicator value at the moment when a new candle is born (i.e. on the first tick).",
+      "typePriceIndicatorCalculation":"Type of indicator calculation price. Any indicator can be based on the opening, closing, minimum or maximum prices of candlesticks (bars). Most often in technical analysis the indicators are built by closing prices.",
+      "timeframeIndicatorCalculation":"Timeframe. The robot offers a choice from 5-second (5s) to daily timeframe (1D) for analyzed charts.",
+      "barIndicatorCalculation":"At which bar to check the value. If we analyze the indicator value on the current candle (bar), we should set the value «0», if on the previous formed candle, we set the value -1, etc. ( -2, -3, -4 ....)",
+      "periodIndicatorCalculation":"Indicator period. Each technical analysis indicator has a period - the number of prices (number of bars) that will be included in the calculation of the current indicator value",
+      "generalInformationIcators":"When using basic strategy templates from the Store, you see in this block already ready templates for setting indicators. First come the settings of the main indicator, then the settings of the additional indicator, if it is provided by the strategy algorithm. At your discretion you can edit all available indicator settings: conditions of signal checking, type of price calculation, timeframe, period, deviation, etc.. You can also add new indicators, located on the left side as a vertical list.<br> IMPORTANT: For the correct setting of your strategy, you must understand the principle of operation of indicators and conditions for opening trades according to the algorithm of the strategy! ",
+      "robotRegulations":"An important block of strategy settings. Here you set the mode of operation, trading time of the robot, minimum % of return of the asset, expiration, rate, number of simultaneous trades, stop loss and take profit. You can use ready-made basic strategy settings from the Market, but it is advisable to set your own settings based on the current market analysis, news background, your account balance and risk appetite. You should understand that ready-made basic strategies are templates that you must customize for yourself.  ",
+      "modeRobotOperating":"Operating mode. You can choose to trade automatically, or you can choose to submit signals.",
+      "timeFromRobotOperating":"Operating time. Set the desired run time when the robot will trade.<br>If 00:00 - 00:00 is selected, the robot will run continuously.",
+      "minProfitRobotOperating":"Min. % of yield. Specify the minimum yield on the asset at which the robot can open trades.",
+      "expirationRobotOperating":"Expiration (sec). Duration of the deal is specified.",
+      "betRobotOperating":"Rate. Specify the amount for which the deal will be opened.",
+      "maxBetsRobotOperating":"Simultaneous trades. Specify the maximum number of open trades for the strategy.",
+      "slRobotOperating":"Stop Loss. This is the amount of loss upon reaching which the robot will stop trading on the strategy. When 0 is specified, the setting is ignored",
+      "tpRobotOperating":"Take Profit. This is the amount of profit, upon reaching which the robot will stop trading on the strategy. When 0 is specified, the setting is ignored",
+      "robotMartingale":"A very important block of strategy settings responsible for risk control and trade management after an unsuccessful trade on the starting signal. Trading using the martingale method is popular and effective for trading digital options, but it also involves a higher level of risk. The robot has very flexible martingale series settings, which makes trading more profitable and risk controlled. At each step of the martingale series, the trader can choose the expiration, the direction of the trade, and the method of calculating the martingale coefficient. A block of settings is also available, which determines the robot's actions when the return on the asset decreases, the asset is unavailable or the expiration expires. ",
+      "addStepMartingale":"Adding a martingale step. New step by default copies the settings of the previous step (if any).",
+      "robotActionDecreaseProfit":"Customizing the robot's action if the return on an asset decreases.",
+      "robotActionDisabledAsset":"Customize the robot's action if the asset becomes unavailable on the platform.",
+      "robotMartinExpiration":"You can set a different expiration for each martingale step.",
+      "robotActionDisabledExpiration":"Customizing the robot action if the specified expiration is not available on the asset.",
+      "robotMartinDirection":"For each martingale step there is a choice of trade direction available.",
+      "robotMartinAutoRatio":"The robot can automatically calculate the amount of the trade at each step to take the trading series to a profit equal to the starting bet. Either the robot can increase the previous bet by the selected odds.",
+      "detailedViewTransactionInformation":"To view information on a deal in detail, just click on the corresponding line in the history.The detailed information on the trade also contains a button to go to the information about the martingale series (if any) and a button to go to the Journal of the extreme strategy launch, which contains step-by-step information about each action of the robot within the launched strategy ",
+      "detailedMartinSeries":"You can analyze trades by martingale series by setting the appropriate filter in the «Grouping» column.This information is very useful if you trade on several assets at the same time .",
+      "detailedShop":"A set of ready-made basic strategies for both beginners and experienced traders. Each strategy has a description of the algorithm of opening trades and is based on popular trading indicators. The list of strategies in the Store will be periodically updated with new ones. You can always add any strategy from the store to your active list of used strategies and it will appear in the Strategies section.",
+      "detailLogbook":"The log of an extreme strategy launch reflects step-by-step information about each robot action within the launched strategy. This detailed approach provides the trader with comprehensive information on trades, reasons for refusal to open trades in the presence of a signal and so on.",
+      "detailWalletDesc":"MyTether - integrated into PocketOptionRobot extension service for managing Tether crypto coin (USDT) in TRON network (TRC-20) on the most favorable conditions for the user. The transaction is carried out at the expense of MyTether resources, which allows its users to save up to 70% of the commission in the TRON network. MyTether belongs to the group of non-custodial cryptocurrency wallets, which allows users to own and control their private keys. Private keys and cid-phrases are stored exclusively in the extension and are not shared online in any way with third parties. Users can also use the service together with TronLink web wallet and Ledger cold hardware wallet. Transaction fees are paid with the internal coin of the TFC service. The price of this coin is fixed and is 1 USDT. ",
+      "toStartWallet":"In order to start using the wallet, set a strong password for login. You will then have several options available to you to add accounts.",
+      "generateAccount":"Generate an account - the wallet will be created on the Tron network and you will be presented with cid phrases.",
+      "attentionGenerateAccount":"<b>Warning:</b> Sid-phrases are key information for accessing your funds. Copy them down and keep them in a safe place that is not accessible to you. They cannot be recovered if lost. In case of loss of cid-phrases access to your cryptocurrencies will be lost forever. The Service does not have access to this information and is not able to remind or restore it to you.",
+      "importAccount":"Import Account - You can import your wallet with a cid-phrase or private key.",
+      "createPair":"Create a pair - MyTether offers the option to pair the wallet with Tron Link wallets and Ledger hardware wallets. In this use case, all private information is stored in the wallets you pair with, and transaction signing is done in their interfaces.",
+      "createSendTx":"To transfer a coin, hover over it on the main wallet panel, after which the \"Send\" and \"Receive\" buttons will become available. Before sending coins, make sure you have enough TFC coins to charge transaction fees.To purchase TFC coins, use the exchange button by clicking on the \"Exchange\" button, also located on the main wallet panel .",
+      "addIndicatorApi":"<div>To receive an external signal from the TradingView platform, add the \"External Signal\" indicator to your PocketOptionRobot strategy. After adding an External Signal, you will need to specify the robot's Server in the \"Network Bridge\" parameter, as well as copy the unique identifier for its further binding to the Trading View. On the TradingView platform, you will need to create a new alert for your strategy, for which it must be pre-created on the TradingView platform. In the \"Notifications\" tab of your alert, you need to enter the address of our robot's server in the \"webhook URL\" field: <b>https://pocketoption.expert/tradingview /</b> Next, after the slash (/), you need to add a unique identifier that you previously copied in the PocketOptionRobot extension when you added an external signal. <br>Next, go to the \"Settings\" tab of the alert and enter the action and asset parameters in the \"Message\" field, according to your strategy without spaces. <br>In its generalized simplest form, it looks like</div>",
+      "howBroadcastTradingView":"How do I broadcast a signal based on a strategy created in TradingView to Pocket Option?",
+      "attentionTradingView":"<span class=\"red\">ATTENTION:</span> You need knowledge of the TradingView functionality to create a strategy and correctly set up an alert! We do not teach you how to work with the TradingView platform, but provide you with a service for transmitting a signal to Pocket Option!",
+      "assetIdInfo":"Information on assets in the platform"
+    }
+  },
+  "links":{
+    "mainSite":"Official site of the developer",
+    "vkGroup":"Support PocketOptionRobot in VK",
+    "tg":"TG/VIBER support and promo code distribution",
+    "traderschat":"Traders' Chat",
+    "youtube":"YouTube",
+    "youtubeChanel":"YouTube channel",
+    "tgChanel":"TG channel"
+  }
+} 

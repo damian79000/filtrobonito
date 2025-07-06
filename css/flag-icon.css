@@ -1,0 +1,941 @@
+@charset "UTF-8";
+span.flag-icon {
+  background: url("../img/flag/flags_21x21.png") no-repeat top left;
+  width: 21px;
+  height: 21px;
+}
+span.flag-icon--100_otc {
+  background-position: 0 0;
+}
+span.flag-icon--100 {
+  background-position: -21px 0;
+}
+span.flag-icon--aa {
+  background-position: 0 -21px;
+}
+span.flag-icon--aapl {
+  background-position: -21px -21px;
+}
+span.flag-icon--aav {
+  background-position: -42px 0;
+}
+span.flag-icon--abbv {
+  background-position: -42px -21px;
+}
+span.flag-icon--abt {
+  background-position: 0 -42px;
+}
+span.flag-icon--ada {
+  background-position: -21px -42px;
+}
+span.flag-icon--adm {
+  background-position: -42px -42px;
+}
+span.flag-icon--adp {
+  background-position: -63px 0;
+}
+span.flag-icon--ads {
+  background-position: -63px -21px;
+}
+span.flag-icon--aed {
+  background-position: -63px -42px;
+}
+span.flag-icon--aex25 {
+  background-position: 0 -63px;
+}
+span.flag-icon--agnc {
+  background-position: -21px -63px;
+}
+span.flag-icon--aht {
+  background-position: -42px -63px;
+}
+span.flag-icon--air {
+  background-position: -63px -63px;
+}
+span.flag-icon--alg {
+  background-position: -84px 0;
+}
+span.flag-icon--ali {
+  background-position: -84px -21px;
+}
+span.flag-icon--alp {
+  background-position: -84px -42px;
+}
+span.flag-icon--alv {
+  background-position: -84px -63px;
+}
+span.flag-icon--amd {
+  background-position: 0 -84px;
+}
+span.flag-icon--amgn {
+  background-position: -21px -84px;
+}
+span.flag-icon--amwl {
+  background-position: -42px -84px;
+}
+span.flag-icon--amzn {
+  background-position: -63px -84px;
+}
+span.flag-icon--ant {
+  background-position: -84px -84px;
+}
+span.flag-icon--ars {
+  background-position: -105px 0;
+}
+span.flag-icon--asml {
+  background-position: -105px -21px;
+}
+span.flag-icon--asx200 {
+  background-position: -105px -42px;
+}
+span.flag-icon--ato {
+  background-position: -105px -63px;
+}
+span.flag-icon--aud {
+  background-position: -105px -84px;
+}
+span.flag-icon--aus200_otc {
+  background-position: 0 -105px;
+}
+span.flag-icon--aus200 {
+  background-position: -21px -105px;
+}
+span.flag-icon--avax {
+  background-position: -42px -105px;
+}
+span.flag-icon--avgo {
+  background-position: -63px -105px;
+}
+span.flag-icon--avx {
+  background-position: -84px -105px;
+}
+span.flag-icon--axp {
+  background-position: -105px -105px;
+}
+span.flag-icon--axs {
+  background-position: -126px 0;
+}
+span.flag-icon--bсh {
+  background-position: -126px -21px;
+}
+span.flag-icon--ba {
+  background-position: -126px -42px;
+}
+span.flag-icon--baba {
+  background-position: -126px -63px;
+}
+span.flag-icon--bac {
+  background-position: -126px -84px;
+}
+span.flag-icon--baes {
+  background-position: -126px -105px;
+}
+span.flag-icon--barc {
+  background-position: 0 -126px;
+}
+span.flag-icon--bats {
+  background-position: -21px -126px;
+}
+span.flag-icon--bayn {
+  background-position: -42px -126px;
+}
+span.flag-icon--bb {
+  background-position: -63px -126px;
+}
+span.flag-icon--bch {
+  background-position: -84px -126px;
+}
+span.flag-icon--bdt {
+  background-position: -105px -126px;
+}
+span.flag-icon--bhd {
+  background-position: -126px -126px;
+}
+span.flag-icon--bitb {
+  background-position: -147px 0;
+}
+span.flag-icon--bkng {
+  background-position: -147px -21px;
+}
+span.flag-icon--blnd {
+  background-position: -147px -42px;
+}
+span.flag-icon--bmw {
+  background-position: -147px -63px;
+}
+span.flag-icon--bnb {
+  background-position: -147px -84px;
+}
+span.flag-icon--bnp {
+  background-position: -147px -105px;
+}
+span.flag-icon--brby {
+  background-position: -147px -126px;
+}
+span.flag-icon--brl {
+  background-position: 0 -147px;
+}
+span.flag-icon--bt {
+  background-position: -21px -147px;
+}
+span.flag-icon--btc {
+  background-position: -42px -147px;
+}
+span.flag-icon--c {
+  background-position: -63px -147px;
+}
+span.flag-icon--cac {
+  background-position: -84px -147px;
+}
+span.flag-icon--cac40 {
+  background-position: -105px -147px;
+}
+span.flag-icon--cad {
+  background-position: -126px -147px;
+}
+span.flag-icon--cat {
+  background-position: -147px -147px;
+}
+span.flag-icon--chf {
+  background-position: -168px 0;
+}
+span.flag-icon--chz {
+  background-position: -168px -21px;
+}
+span.flag-icon--citi {
+  background-position: -168px -42px;
+}
+span.flag-icon--cl {
+  background-position: -168px -63px;
+}
+span.flag-icon--clp {
+  background-position: -168px -84px;
+}
+span.flag-icon--clx {
+  background-position: -168px -105px;
+}
+span.flag-icon--cnh, span.flag-icon--cny {
+  background-position: -168px -126px;
+}
+span.flag-icon--coin {
+  background-position: -168px -147px;
+}
+span.flag-icon--com {
+  background-position: 0 -168px;
+}
+span.flag-icon--con {
+  background-position: -21px -168px;
+}
+span.flag-icon--cop {
+  background-position: -42px -168px;
+}
+span.flag-icon--coty {
+  background-position: -63px -168px;
+}
+span.flag-icon--csco {
+  background-position: -84px -168px;
+}
+span.flag-icon--cvx {
+  background-position: -105px -168px;
+}
+span.flag-icon--czk {
+  background-position: -126px -168px;
+}
+span.flag-icon--d30_otc {
+  background-position: -147px -168px;
+}
+span.flag-icon--d30 {
+  background-position: -168px -168px;
+}
+span.flag-icon--dash {
+  background-position: -189px 0;
+}
+span.flag-icon--dat {
+  background-position: -189px -21px;
+}
+span.flag-icon--dbx {
+  background-position: -189px -42px;
+}
+span.flag-icon--dgb {
+  background-position: -189px -63px;
+}
+span.flag-icon--dge {
+  background-position: -189px -84px;
+}
+span.flag-icon--dis {
+  background-position: -189px -105px;
+}
+span.flag-icon--dji30_otc {
+  background-position: -189px -126px;
+}
+span.flag-icon--dji30 {
+  background-position: -189px -147px;
+}
+span.flag-icon--dkk {
+  background-position: -189px -168px;
+}
+span.flag-icon--docu {
+  background-position: 0 -189px;
+}
+span.flag-icon--doge {
+  background-position: -21px -189px;
+}
+span.flag-icon--dot {
+  background-position: -42px -189px;
+}
+span.flag-icon--dsh {
+  background-position: -63px -189px;
+}
+span.flag-icon--dvn {
+  background-position: -84px -189px;
+}
+span.flag-icon--dzd {
+  background-position: -105px -189px;
+}
+span.flag-icon--e35_otc {
+  background-position: -126px -189px;
+}
+span.flag-icon--e35 {
+  background-position: -147px -189px;
+}
+span.flag-icon--e50_otc {
+  background-position: -168px -189px;
+}
+span.flag-icon--e50 {
+  background-position: -189px -189px;
+}
+span.flag-icon--ebay {
+  background-position: -210px 0;
+}
+span.flag-icon--edu {
+  background-position: -210px -21px;
+}
+span.flag-icon--egp {
+  background-position: -210px -42px;
+}
+span.flag-icon--enj {
+  background-position: -210px -63px;
+}
+span.flag-icon--eos {
+  background-position: -210px -84px;
+}
+span.flag-icon--eth {
+  background-position: -210px -105px;
+}
+span.flag-icon--eur {
+  background-position: -210px -126px;
+}
+span.flag-icon--expe {
+  background-position: -210px -147px;
+}
+span.flag-icon--f {
+  background-position: -210px -168px;
+}
+span.flag-icon--f40_otc {
+  background-position: -210px -189px;
+}
+span.flag-icon--f40 {
+  background-position: 0 -210px;
+}
+span.flag-icon--fb {
+  background-position: -21px -210px;
+}
+span.flag-icon--fdax {
+  background-position: -42px -210px;
+}
+span.flag-icon--fdx {
+  background-position: -63px -210px;
+}
+span.flag-icon--fil {
+  background-position: -84px -210px;
+}
+span.flag-icon--fis {
+  background-position: -105px -210px;
+}
+span.flag-icon--fti {
+  background-position: -126px -210px;
+}
+span.flag-icon--ftse {
+  background-position: -147px -210px;
+}
+span.flag-icon--gbp {
+  background-position: -168px -210px;
+}
+span.flag-icon--gd {
+  background-position: -189px -210px;
+}
+span.flag-icon--ge {
+  background-position: -210px -210px;
+}
+span.flag-icon--gild {
+  background-position: -231px 0;
+}
+span.flag-icon--glm {
+  background-position: -231px -21px;
+}
+span.flag-icon--gm {
+  background-position: -231px -42px;
+}
+span.flag-icon--goog {
+  background-position: -231px -63px;
+}
+span.flag-icon--gpn {
+  background-position: -231px -84px;
+}
+span.flag-icon--h33hkd {
+  background-position: -231px -105px;
+}
+span.flag-icon--hd {
+  background-position: -231px -126px;
+}
+span.flag-icon--hik {
+  background-position: -231px -147px;
+}
+span.flag-icon--hk50 {
+  background-position: -231px -168px;
+}
+span.flag-icon--hkg {
+  background-position: -231px -189px;
+}
+span.flag-icon--hpq {
+  background-position: -231px -210px;
+}
+span.flag-icon--hsba {
+  background-position: 0 -231px;
+}
+span.flag-icon--huf {
+  background-position: -21px -231px;
+}
+span.flag-icon--ibex35 {
+  background-position: -42px -231px;
+}
+span.flag-icon--ibm {
+  background-position: -63px -231px;
+}
+span.flag-icon--icp {
+  background-position: -84px -231px;
+}
+span.flag-icon--idr {
+  background-position: -105px -231px;
+}
+span.flag-icon--iii {
+  background-position: -126px -231px;
+}
+span.flag-icon--ils {
+  background-position: -147px -231px;
+}
+span.flag-icon--ilv {
+  background-position: -168px -231px;
+}
+span.flag-icon--imb {
+  background-position: -189px -231px;
+}
+span.flag-icon--index_v1 {
+  background-position: -210px -231px;
+}
+span.flag-icon--index_v2 {
+  background-position: -231px -231px;
+}
+span.flag-icon--ino {
+  background-position: -252px 0;
+}
+span.flag-icon--inr {
+  background-position: -252px -21px;
+}
+span.flag-icon--intc {
+  background-position: -252px -42px;
+}
+span.flag-icon--irr {
+  background-position: -252px -63px;
+}
+span.flag-icon--ita {
+  background-position: -252px -84px;
+}
+span.flag-icon--itrk {
+  background-position: -252px -105px;
+}
+span.flag-icon--jnj {
+  background-position: -252px -126px;
+}
+span.flag-icon--jod {
+  background-position: -252px -147px;
+}
+span.flag-icon--jpm {
+  background-position: -252px -168px;
+}
+span.flag-icon--jpn225_otc {
+  background-position: -252px -189px;
+}
+span.flag-icon--jpn225 {
+  background-position: -252px -210px;
+}
+span.flag-icon--jpy {
+  background-position: -252px -231px;
+}
+span.flag-icon--kav {
+  background-position: 0 -252px;
+}
+span.flag-icon--ker {
+  background-position: -21px -252px;
+}
+span.flag-icon--kmi {
+  background-position: -42px -252px;
+}
+span.flag-icon--ko {
+  background-position: -63px -252px;
+}
+span.flag-icon--kodk {
+  background-position: -84px -252px;
+}
+span.flag-icon--krw {
+  background-position: -105px -252px;
+}
+span.flag-icon--lbp {
+  background-position: -126px -252px;
+}
+span.flag-icon--lcid {
+  background-position: -147px -252px;
+}
+span.flag-icon--link {
+  background-position: -168px -252px;
+}
+span.flag-icon--lmt {
+  background-position: -189px -252px;
+}
+span.flag-icon--lnk {
+  background-position: -210px -252px;
+}
+span.flag-icon--lrcx {
+  background-position: -231px -252px;
+}
+span.flag-icon--lrlcy {
+  background-position: -252px -252px;
+}
+span.flag-icon--ltc {
+  background-position: -273px 0;
+}
+span.flag-icon--ma {
+  background-position: -273px -21px;
+}
+span.flag-icon--mad {
+  background-position: -273px -42px;
+}
+span.flag-icon--matic {
+  background-position: -273px -63px;
+}
+span.flag-icon--mbg {
+  background-position: -273px -84px;
+}
+span.flag-icon--mbt {
+  background-position: -273px -105px;
+}
+span.flag-icon--mc {
+  background-position: -273px -126px;
+}
+span.flag-icon--mcd {
+  background-position: -273px -147px;
+}
+span.flag-icon--mdlz {
+  background-position: -273px -168px;
+}
+span.flag-icon--meta {
+  background-position: -273px -189px;
+}
+span.flag-icon--mgn {
+  background-position: -273px -210px;
+}
+span.flag-icon--mkr {
+  background-position: -273px -231px;
+}
+span.flag-icon--mlm {
+  background-position: -273px -252px;
+}
+span.flag-icon--mmm {
+  background-position: 0 -273px;
+}
+span.flag-icon--mna {
+  background-position: -21px -273px;
+}
+span.flag-icon--mo {
+  background-position: -42px -273px;
+}
+span.flag-icon--mrna {
+  background-position: -63px -273px;
+}
+span.flag-icon--ms {
+  background-position: -84px -273px;
+}
+span.flag-icon--msft {
+  background-position: -105px -273px;
+}
+span.flag-icon--msk {
+  background-position: -126px -273px;
+}
+span.flag-icon--mtc {
+  background-position: -147px -273px;
+}
+span.flag-icon--mxn {
+  background-position: -168px -273px;
+}
+span.flag-icon--myr {
+  background-position: -189px -273px;
+}
+span.flag-icon--nas_otc {
+  background-position: -210px -273px;
+}
+span.flag-icon--nas {
+  background-position: -231px -273px;
+}
+span.flag-icon--nas100 {
+  background-position: -252px -273px;
+}
+span.flag-icon--nea {
+  background-position: -273px -273px;
+}
+span.flag-icon--neo {
+  background-position: -294px 0;
+}
+span.flag-icon--nflx {
+  background-position: -294px -21px;
+}
+span.flag-icon--ni225 {
+  background-position: -294px -42px;
+}
+span.flag-icon--nifty50 {
+  background-position: -294px -63px;
+}
+span.flag-icon--nike {
+  background-position: -294px -84px;
+}
+span.flag-icon--nio {
+  background-position: -294px -105px;
+}
+span.flag-icon--nok {
+  background-position: -294px -126px;
+}
+span.flag-icon--nq {
+  background-position: -294px -147px;
+}
+span.flag-icon--nsc {
+  background-position: -294px -168px;
+}
+span.flag-icon--nul {
+  background-position: -294px -189px;
+}
+span.flag-icon--nvda {
+  background-position: -294px -210px;
+}
+span.flag-icon--nwg {
+  background-position: -294px -231px;
+}
+span.flag-icon--nzd {
+  background-position: -294px -252px;
+}
+span.flag-icon--okta {
+  background-position: -294px -273px;
+}
+span.flag-icon--omg {
+  background-position: 0 -294px;
+}
+span.flag-icon--omr {
+  background-position: -21px -294px;
+}
+span.flag-icon--oxy {
+  background-position: -42px -294px;
+}
+span.flag-icon--pah3 {
+  background-position: -63px -294px;
+}
+span.flag-icon--panw {
+  background-position: -84px -294px;
+}
+span.flag-icon--pdd {
+  background-position: -105px -294px;
+}
+span.flag-icon--pep {
+  background-position: -126px -294px;
+}
+span.flag-icon--pfe {
+  background-position: -147px -294px;
+}
+span.flag-icon--pg {
+  background-position: -168px -294px;
+}
+span.flag-icon--php {
+  background-position: -189px -294px;
+}
+span.flag-icon--pkr {
+  background-position: -210px -294px;
+}
+span.flag-icon--pln {
+  background-position: -231px -294px;
+}
+span.flag-icon--pm {
+  background-position: -252px -294px;
+}
+span.flag-icon--pool {
+  background-position: -273px -294px;
+}
+span.flag-icon--pson {
+  background-position: -294px -294px;
+}
+span.flag-icon--pypl {
+  background-position: -315px 0;
+}
+span.flag-icon--qar {
+  background-position: -315px -21px;
+}
+span.flag-icon--qcom {
+  background-position: -315px -42px;
+}
+span.flag-icon--qtm {
+  background-position: -315px -63px;
+}
+span.flag-icon--ref {
+  background-position: -315px -84px;
+}
+span.flag-icon--rng {
+  background-position: -315px -105px;
+}
+span.flag-icon--rno {
+  background-position: -315px -126px;
+}
+span.flag-icon--rtx {
+  background-position: -315px -147px;
+}
+span.flag-icon--rub {
+  background-position: -315px -168px;
+}
+span.flag-icon--sar {
+  background-position: -315px -189px;
+}
+span.flag-icon--sbux {
+  background-position: -315px -210px;
+}
+span.flag-icon--sek {
+  background-position: -315px -231px;
+}
+span.flag-icon--sgd {
+  background-position: -315px -252px;
+}
+span.flag-icon--sia {
+  background-position: -315px -273px;
+}
+span.flag-icon--sie {
+  background-position: -315px -294px;
+}
+span.flag-icon--sing {
+  background-position: 0 -315px;
+}
+span.flag-icon--slb {
+  background-position: -21px -315px;
+}
+span.flag-icon--smi20 {
+  background-position: -42px -315px;
+}
+span.flag-icon--snd {
+  background-position: -63px -315px;
+}
+span.flag-icon--snow {
+  background-position: -84px -315px;
+}
+span.flag-icon--snt {
+  background-position: -105px -315px;
+}
+span.flag-icon--sol {
+  background-position: -126px -315px;
+}
+span.flag-icon--sp500_otc {
+  background-position: -147px -315px;
+}
+span.flag-icon--sp500 {
+  background-position: -168px -315px;
+}
+span.flag-icon--spx {
+  background-position: -189px -315px;
+}
+span.flag-icon--sq {
+  background-position: -210px -315px;
+}
+span.flag-icon--str {
+  background-position: -231px -315px;
+}
+span.flag-icon--stx {
+  background-position: -252px -315px;
+}
+span.flag-icon--stz {
+  background-position: -273px -315px;
+}
+span.flag-icon--sun {
+  background-position: -294px -315px;
+}
+span.flag-icon--sx5e {
+  background-position: -315px -315px;
+}
+span.flag-icon--syp {
+  background-position: -336px 0;
+}
+span.flag-icon--t {
+  background-position: -336px -21px;
+}
+span.flag-icon--tap {
+  background-position: -336px -42px;
+}
+span.flag-icon--thb {
+  background-position: -336px -63px;
+}
+span.flag-icon--tht {
+  background-position: -336px -84px;
+}
+span.flag-icon--tlm {
+  background-position: -336px -105px;
+}
+span.flag-icon--tme {
+  background-position: -336px -126px;
+}
+span.flag-icon--tnd {
+  background-position: -336px -147px;
+}
+span.flag-icon--ton {
+  background-position: -336px -168px;
+}
+span.flag-icon--tot {
+  background-position: -336px -189px;
+}
+span.flag-icon--trip {
+  background-position: -336px -210px;
+}
+span.flag-icon--trx {
+  background-position: -336px -231px;
+}
+span.flag-icon--try {
+  background-position: -336px -252px;
+}
+span.flag-icon--tsco {
+  background-position: -336px -273px;
+}
+span.flag-icon--tsla {
+  background-position: -336px -294px;
+}
+span.flag-icon--tte {
+  background-position: -336px -315px;
+}
+span.flag-icon--twitter {
+  background-position: 0 -336px;
+}
+span.flag-icon--ukbrent {
+  background-position: -21px -336px;
+}
+span.flag-icon--una {
+  background-position: -42px -336px;
+}
+span.flag-icon--uni {
+  background-position: -63px -336px;
+}
+span.flag-icon--us100 {
+  background-position: -84px -336px;
+}
+span.flag-icon--us100cash {
+  background-position: -105px -336px;
+}
+span.flag-icon--us100otc {
+  background-position: -126px -336px;
+}
+span.flag-icon--uscrude {
+  background-position: -147px -336px;
+}
+span.flag-icon--usd {
+  background-position: -168px -336px;
+}
+span.flag-icon--usdx {
+  background-position: -189px -336px;
+}
+span.flag-icon--uu {
+  background-position: -210px -336px;
+}
+span.flag-icon--vet {
+  background-position: -231px -336px;
+}
+span.flag-icon--visa {
+  background-position: -252px -336px;
+}
+span.flag-icon--vix {
+  background-position: -273px -336px;
+}
+span.flag-icon--vmc {
+  background-position: -294px -336px;
+}
+span.flag-icon--vnd {
+  background-position: -315px -336px;
+}
+span.flag-icon--vod {
+  background-position: -336px -336px;
+}
+span.flag-icon--vow {
+  background-position: -357px 0;
+}
+span.flag-icon--vz {
+  background-position: -357px -21px;
+}
+span.flag-icon--wav {
+  background-position: -357px -42px;
+}
+span.flag-icon--wmt {
+  background-position: -357px -63px;
+}
+span.flag-icon--xag {
+  background-position: -357px -84px;
+}
+span.flag-icon--xau {
+  background-position: -357px -105px;
+}
+span.flag-icon--xlm {
+  background-position: -357px -126px;
+}
+span.flag-icon--xmr {
+  background-position: -357px -147px;
+}
+span.flag-icon--xng {
+  background-position: -357px -168px;
+}
+span.flag-icon--xom {
+  background-position: -357px -189px;
+}
+span.flag-icon--xpd {
+  background-position: -357px -210px;
+}
+span.flag-icon--xpt {
+  background-position: -357px -231px;
+}
+span.flag-icon--xrp {
+  background-position: -357px -252px;
+}
+span.flag-icon--xtz {
+  background-position: -357px -273px;
+}
+span.flag-icon--yer {
+  background-position: -357px -294px;
+}
+span.flag-icon--yfi {
+  background-position: -357px -315px;
+}
+span.flag-icon--ygg {
+  background-position: -357px -336px;
+}
+span.flag-icon--ym {
+  background-position: 0 -357px;
+}
+span.flag-icon--zar {
+  background-position: -21px -357px;
+}
+span.flag-icon--zec {
+  background-position: -42px -357px;
+}
+span.flag-icon--zil {
+  background-position: -63px -357px;
+}
+span.flag-icon--zm {
+  background-position: -84px -357px;
+}
+
+/*# sourceMappingURL=flag-icon.css.map */

@@ -1,0 +1,35 @@
+{
+   "action": {
+   },
+   "author": "Cyberdyne Systems",
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "js/injected.js" ],
+      "matches": [ "https://*/*" ]
+   }, {
+      "all_frames": true,
+      "js": [ "js/registration.js" ],
+      "matches": [ "https://*/*" ]
+   } ],
+   "description": "Расширение для браузера, которое помогает найти момент для открытия сделки с учетом параметров указанных в выбранной стратегии.",
+   "externally_connectable": {
+      "matches": [ "https://mytether.cash/*", "https://pocketoption.expert/*" ]
+   },
+   "homepage_url": "https://forexbinaryrobot.ru/",
+   "host_permissions": [ "wss://*/", "https://*/*" ],
+   "icons": {
+      "128": "img/logo_128_disbl.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAirIRdu4oxUkqjzelmS44vk1i9kLTE3viiT1KvcYNlxGeDHtqyz8b9W+Mc+/ixxoZA2YrayZt1k0xx2O+mPuUK/A/x7e+OZDQJUFIOjl0A323BiWFNs8LFDUd7tLveCtmXeZBFiq8dl56wO9yKmCVnSZv4Vo1u16Gf5ibyxVyUqmbdVLu2wlBxe5u/iS9uF5Ol+U7ahmJ8Gr0b8o4KZ7iNZtYNAMjmMuowHr6JjZ/PV20OpTP82tluljJB2kI7TF8bfnuy9SW4AvpWqNg+BI168RIvCb5KVxfa6wjmQ25gtOxOay5nCTp0Bb+42hDHjFlvEjFVn6/t8kv/m/jlYeBfQIDAQAB",
+   "manifest_version": 3,
+   "name": "PocketOptionRobot",
+   "permissions": [ "cookies", "storage", "history", "tabs", "scripting", "system.display", "unlimitedStorage", "webRequest" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.1.8",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "sounds/*", "json/configuration.json", "json/languages/*.json", "font/*", "img/svg/*" ]
+   } ]
+}
